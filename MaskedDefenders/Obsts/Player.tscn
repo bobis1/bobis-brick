@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d05qt5kfigxv5"]
+
+[ext_resource type="Script" uid="uid://c7flkndorwaum" path="res://Obsts/player.gd" id="1_eduvj"]
+[ext_resource type="Texture2D" uid="uid://o1l45hjsuo5e" path="res://TestAssets/playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png" id="2_ox0v2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eduvj"]
+size = Vector2(406, 700)
+
+[node name="Player" type="Node2D"]
+scale = Vector2(0.02, 0.02)
+script = ExtResource("1_eduvj")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(-7, 10)
+shape = SubResource("RectangleShape2D_eduvj")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("2_ox0v2")
