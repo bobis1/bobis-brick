@@ -1,12 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1767240158
+::res://::1767447270
 Globals.gd::GDScript::509349098148029968::1767238778::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::5479653904044637520::1766781721::1766781731::1::::<><><>0<>0<>ae546241fe8fac820f1589760b35514a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 isOnFloor.gd::GDScript::6325286757120976387::1767239097::0::1::::<>Area2D<><>0<>0<><>::
-main.tscn::PackedScene::6616807657897134777::1767239725::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://ckcndmxo1ttrk::::res://icon.svg
+main.tscn::PackedScene::6616807657897134777::1767325955::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://ckcndmxo1ttrk::::res://icon.svg
 player.gd::GDScript::4116897712852545842::1767239512::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Test.tscn::PackedScene::-1::1766783208::0::1::::<><><>0<>0<><>::
-::res://addons/::1766783207
+::res://addons/::1767325806
 ::res://addons/godot_super-wakatime/::1766783207
 api_key_prompt.tscn::PackedScene::3919262858641749045::1766783207::0::1::::<><><>0<>0<><>::
 counter.tscn::PackedScene::6849360014225833986::1766783207::0::1::::<><><>0<>0<><>::
@@ -19,8 +19,8 @@ utils.gd::GDScript::5251015809120159908::1766783207::0::1::::<>RefCounted<><>0<>
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1766783207::1766783209::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1766783207::1766783208::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1766783207::1766783208::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
-::res://Obsts/::1767239430
+::res://Obsts/::1767240196
 Block.tscn::PackedScene::4549289666798727179::1766786313::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg
-Player.tscn::PackedScene::8976921468007041940::1766785025::0::1::::<><><>0<>0<><>::uid://c7flkndorwaum::::res://Obsts/player.gd<>uid://o1l45hjsuo5e::::res://TestAssets/playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png
+Player.tscn::PackedScene::8976921468007041940::1767240196::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://o1l45hjsuo5e::::res://TestAssets/playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png
 ::res://TestAssets/::1766783340
 playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png::CompressedTexture2D::1037038894429592024::1766783285::1766783340::1::::<><><>0<>0<>42460d49c0360708b248efcf2c956ddf<>res://.godot/imported/playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png-8c37fd9103f120273d9731d819c04d50.ctex::
