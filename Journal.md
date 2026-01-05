@@ -12,4 +12,4 @@ Todo:
     Time survived system,
     More enemy types,
     Platforms that are added as more enemies are killed,
-
+[▶ Watch the video](JournalAsset/1.4.2026.mov)
