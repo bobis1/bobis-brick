@@ -1,10 +1,9 @@
 res://main.tscn
-res://player.gd
-res://Obsts/projectile.tscn
-res://Obsts/projectile.gd
-res://Obsts/projectileRight.tscn
-res://Obsts/projectileLeft.tscn
-res://Obsts/Enemy.tscn
-res://Obsts/enemy.gd
 res://Globals.gd
+res://player.gd
+res://Obsts/Enemy.tscn
+res://Obsts/projectileLeft.tscn
+res://Obsts/projectileRight.tscn
 res://enemy_spawner.gd
+res://Obsts/enemy.gd
+res://Base.tscn

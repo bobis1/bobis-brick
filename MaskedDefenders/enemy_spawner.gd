@@ -1,7 +1,8 @@
 extends Node
 
-var time: int = 10000
+var time: int = 100
 var enemyScene: PackedScene = preload("res://Obsts/Enemy.tscn")
+@export var spawnPointLeft: Marker2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -13,6 +14,11 @@ func _process(delta: float) -> void:
 	time -= 1
 	if time <= 0:
 		var enemySpawned = enemyScene.instantiate()
+		spawnPointLeft.add_child(enemySpawned)
+		time = 100
+	print(time)
+		
+		
 		
 		
 		
