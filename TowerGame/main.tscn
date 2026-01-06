@@ -1,0 +1,68 @@
+[gd_scene load_steps=9 format=3 uid="uid://c1jh4c3s73r34"]
+
+[ext_resource type="Script" uid="uid://bywix6v5uwf6q" path="res://player.gd" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="3_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://bcsymje6nuo77" path="res://Obsts/Enemy.tscn" id="3_h2yge"]
+[ext_resource type="Script" uid="uid://0jck0f6mx15h" path="res://enemy_spawner.gd" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://c4u80btoh01vh" path="res://platform_spawner.gd" id="5_7mycd"]
+[ext_resource type="PackedScene" uid="uid://cx5aq2ichi2uw" path="res://Obsts/StairBlock.tscn" id="5_lquwl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
+size = Vector2(124, 130)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
+size = Vector2(1777, 121)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="." groups=["Player"]]
+position = Vector2(311, -168)
+script = ExtResource("2_0xm2m")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = ExtResource("3_1bvp3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="PlayerMarker" type="Marker2D" parent="Player" groups=["PlayerMarker"]]
+position = Vector2(1, 0)
+
+[node name="Enemy" parent="." instance=ExtResource("3_h2yge")]
+position = Vector2(-212, -2)
+
+[node name="EnemySpawner" type="Node" parent="." node_paths=PackedStringArray("spawnPointLeft", "spawnPointRight")]
+script = ExtResource("4_1bvp3")
+spawnPointLeft = NodePath("../LeftEnemySpawn")
+spawnPointRight = NodePath("../RightEnemySpawn")
+
+[node name="PlatformSpawner" type="Node" parent="."]
+script = ExtResource("5_7mycd")
+Platforms = Array[PackedScene]([ExtResource("5_lquwl")])
+
+[node name="LeftEnemySpawn" type="Marker2D" parent="."]
+position = Vector2(-452, -71)
+
+[node name="RightEnemySpawn" type="Marker2D" parent="."]
+position = Vector2(1024, -64)
+
+[node name="Base" type="Node" parent="."]
+
+[node name="Floor" type="RigidBody2D" parent="Base"]
+position = Vector2(202, 316)
+can_sleep = false
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Base/Floor"]
+position = Vector2(76.5, -136.5)
+shape = SubResource("RectangleShape2D_lquwl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Base/Floor"]
+position = Vector2(74, -125)
+scale = Vector2(13.96, 1)
+texture = ExtResource("3_1bvp3")
+
+[node name="StairBlock" parent="." instance=ExtResource("5_lquwl")]
+position = Vector2(12, -111)

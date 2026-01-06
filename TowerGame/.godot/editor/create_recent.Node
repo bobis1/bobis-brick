@@ -1,0 +1,14 @@
+Sprite2D
+Marker2D
+Node
+CollisionShape2D
+RigidBody2D
+OpenXRBindingModifierEditor
+Area2D
+Camera2D
+TileMapLayer
+TileMap
+CharacterBody2D
+StaticBody2D
+Node2D
+SpringBoneCollisionSphere3D

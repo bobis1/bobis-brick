@@ -13,3 +13,8 @@ Todo:
     More enemy types,
     Platforms that are added as more enemies are killed,
 [▶ Watch the video](JournalAsset/1.4.2026.mp4)
+
+1.5.2026:
+Today, I added some smaller things, the enemy spawner. In addition to this the enemies now can climb on top of each other to try to reach you. However the way that I did this causes them to speed up eventually. In addition to enemy related progress. I also added a system for adding platforms if you kill a certain amount of enemies.
+I still need to add more platform types and replace the placeholder work.
+[▶ Watch the video](JournalAsset/1.5.2026.mov)
