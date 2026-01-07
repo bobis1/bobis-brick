@@ -111,3 +111,9 @@ position = Vector2(88.42382, 109.839035)
 rotation = -0.67710805
 scale = Vector2(5.659994, 1)
 texture = ExtResource("1_fmgqs")
+
+[node name="LeftEnemySpawn" type="Marker2D" parent="." groups=["EnemySpawn"]]
+position = Vector2(-452, -71)
+
+[node name="RightEnemySpawn" type="Marker2D" parent="." groups=["EnemySpawn"]]
+position = Vector2(1024, -64)

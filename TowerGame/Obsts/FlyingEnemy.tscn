@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://4d6l1tlu6hua"]
+
+[ext_resource type="Script" uid="uid://cu35pbni81wcc" path="res://Obsts/enemy.gd" id="1_auibh"]
+[ext_resource type="Texture2D" uid="uid://c3adre2ua86l5" path="res://images/fireballs/fire_ball_blue_side_small/imgs/img_4.png" id="2_auibh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ynxbr"]
+radius = 63.28507
+
+[node name="FlyingEnemy" type="RigidBody2D" groups=["Enemy", "Flying"]]
+collision_layer = 3
+collision_mask = 3
+mass = 0.75
+contact_monitor = true
+max_contacts_reported = 50
+script = ExtResource("1_auibh")
+linear_force = 2.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_ynxbr")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["Enemy"]]
+position = Vector2(-110, -31)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("2_auibh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -28,8 +28,9 @@ func _physics_process(delta: float) -> void:
 	
 	#Handle shooting
 	if Input.is_action_just_pressed("ShootLeft"):
-		var projectileLeft = leftProjectileScene.instantiate()
-		add_child(projectileLeft)
+		if Globals.isLeft == Vector2.LEFT:
+			var projectile = leftProjectileScene.instantiate()
+			add_child(projectile)
 	
 	if Globals.Health <= 0:
 		get_tree().change_scene_to_file("res://main.tscn")
