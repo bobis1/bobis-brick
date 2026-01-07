@@ -1,6 +1,7 @@
 extends Node
 var threshold
 @export var Platforms: Array[PackedScene] = []
+@export var Top: RigidBody2D
 var rng = RandomNumberGenerator.new()
 var Target_Pose: Vector2
 
@@ -16,8 +17,11 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if Globals.EnemiesKilled == threshold:
 		Globals.PlatformAmount += 1
-		var nextPlatform = Platforms[rng.randf_range(0, Platforms.size())].instantiate()
+		var nextPlatform = Platforms[rng.randf_range(0, Platforms.size()-1)].instantiate()
 		add_child(nextPlatform)
 		Target_Pose.y = -1712.0 * Globals.PlatformAmount
+		Top.global_position.y = -3236.0 * Globals.PlatformAmount
 		nextPlatform.global_position = Target_Pose
+		threshold += 10
+		
 	pass

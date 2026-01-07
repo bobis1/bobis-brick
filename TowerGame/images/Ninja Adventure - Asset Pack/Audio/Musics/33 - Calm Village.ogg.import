@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bexc3rm2pgc1x"
+path="res://.godot/imported/33 - Calm Village.ogg-7688eedf66f4ef80099c72217615837a.oggvorbisstr"
+
+[deps]
+
+source_file="res://images/Ninja Adventure - Asset Pack/Audio/Musics/33 - Calm Village.ogg"
+dest_files=["res://.godot/imported/33 - Calm Village.ogg-7688eedf66f4ef80099c72217615837a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

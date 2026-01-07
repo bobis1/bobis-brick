@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://c1jh4c3s73r34"]
+[gd_scene load_steps=12 format=3 uid="uid://c1jh4c3s73r34"]
 
 [ext_resource type="Script" uid="uid://bywix6v5uwf6q" path="res://player.gd" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="3_1bvp3"]
+[ext_resource type="Script" uid="uid://byuyrw6db0arx" path="res://health_bar.gd" id="3_5vw27"]
 [ext_resource type="PackedScene" uid="uid://bcsymje6nuo77" path="res://Obsts/Enemy.tscn" id="3_h2yge"]
 [ext_resource type="Script" uid="uid://0jck0f6mx15h" path="res://enemy_spawner.gd" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://c4u80btoh01vh" path="res://platform_spawner.gd" id="5_7mycd"]
@@ -13,6 +14,9 @@ size = Vector2(124, 130)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
 size = Vector2(1777, 121)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_272bh"]
+size = Vector2(6326, 121)
 
 [node name="Node2D" type="Node2D"]
 
@@ -38,9 +42,10 @@ position = Vector2(-212, -2)
 script = ExtResource("4_1bvp3")
 enemyScene = Array[PackedScene]([ExtResource("3_h2yge"), ExtResource("5_272bh")])
 
-[node name="PlatformSpawner" type="Node" parent="."]
+[node name="PlatformSpawner" type="Node" parent="." node_paths=PackedStringArray("Top")]
 script = ExtResource("5_7mycd")
 Platforms = Array[PackedScene]([ExtResource("5_lquwl")])
+Top = NodePath("../Base/Top")
 
 [node name="Base" type="Node" parent="."]
 
@@ -58,5 +63,35 @@ position = Vector2(74, -125)
 scale = Vector2(13.96, 1)
 texture = ExtResource("3_1bvp3")
 
+[node name="Top" type="RigidBody2D" parent="Base"]
+process_mode = 3
+position = Vector2(202, -1544)
+mass = 9000.0
+gravity_scale = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Base/Top"]
+position = Vector2(592, -136.5)
+shape = SubResource("RectangleShape2D_272bh")
+
+[node name="Sprite2D" type="Sprite2D" parent="Base/Top"]
+position = Vector2(74, -125)
+scale = Vector2(13.96, 1)
+texture = ExtResource("3_1bvp3")
+
 [node name="StairBlock" parent="." instance=ExtResource("5_lquwl")]
 position = Vector2(12, -111)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -133.0
+offset_right = -129.0
+offset_bottom = 27.0
+grow_horizontal = 0
+scale = Vector2(5, 5)
+max_value = 1000.0
+value = 1000.0
+script = ExtResource("3_5vw27")

@@ -1,9 +1,8 @@
 res://main.tscn
 res://Obsts/projectile.gd
-res://player.gd
-res://Obsts/projectileLeft.tscn
 res://Obsts/Enemy.tscn
 res://Obsts/FlyingEnemy.tscn
-res://enemy_spawner.gd
-res://Obsts/enemy.gd
+res://platform_spawner.gd
 res://Obsts/StairBlock.tscn
+res://health_bar.gd
+res://Globals.gd

@@ -18,3 +18,7 @@ Todo:
 Today, I added some smaller things, the enemy spawner. In addition to this the enemies now can climb on top of each other to try to reach you. However the way that I did this causes them to speed up eventually. In addition to enemy related progress. I also added a system for adding platforms if you kill a certain amount of enemies.
 I still need to add more platform types and replace the placeholder work.
 [▶ Watch the video](JournalAsset/1.5.2026.mov)
+
+1.6.2026
+Today, there was not alot of work that was done :(. However I added a new flying enemy along with a roof so that the player will not be able to just jump outside the playing area. Also the projectile is now able to be aimed. I also added a health bar(I will probably change this to a texture based progress bar however).
+![image](JournalAsset/1.6.2026.png)
