@@ -22,3 +22,5 @@ I still need to add more platform types and replace the placeholder work.
 1.6.2026
 Today, there was not alot of work that was done :(. However I added a new flying enemy along with a roof so that the player will not be able to just jump outside the playing area. Also the projectile is now able to be aimed. I also added a health bar(I will probably change this to a texture based progress bar however).
 ![image](JournalAsset/1.6.2026.png)
+
+1.7.2026

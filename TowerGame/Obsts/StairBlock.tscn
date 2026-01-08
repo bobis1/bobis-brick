@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cx5aq2ichi2uw"]
+[gd_scene load_steps=5 format=3 uid="uid://cx5aq2ichi2uw"]
 
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="1_fmgqs"]
+[ext_resource type="Texture2D" uid="uid://cw22f1i4t0s2f" path="res://images/vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg" id="2_yp0sw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yp0sw"]
 size = Vector2(1777, 121)
@@ -25,20 +26,62 @@ position = Vector2(74, -125)
 scale = Vector2(13.96, 1)
 texture = ExtResource("1_fmgqs")
 
-[node name="Floor3" type="RigidBody2D" parent="."]
-position = Vector2(985, -731)
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014647" type="Sprite2D" parent="Floor2"]
+position = Vector2(-444.00006, -15.000002)
+rotation = 1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 740)
+
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014648" type="Sprite2D" parent="Floor2"]
+position = Vector2(291.99994, -15.000034)
+rotation = 1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 740)
+
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014649" type="Sprite2D" parent="Floor2"]
+position = Vector2(722, -15.000053)
+rotation = -1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 513.356)
+
+[node name="Floor4" type="RigidBody2D" parent="."]
+position = Vector2(1106, -774)
 rotation = 1.5707964
 can_sleep = false
 freeze = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor4"]
 position = Vector2(76.5, -136.5)
 shape = SubResource("RectangleShape2D_yp0sw")
 
-[node name="Sprite2D" type="Sprite2D" parent="Floor3"]
+[node name="Sprite2D" type="Sprite2D" parent="Floor4"]
 position = Vector2(74, -125)
 scale = Vector2(13.96, 1)
 texture = ExtResource("1_fmgqs")
+
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014647" type="Sprite2D" parent="Floor4"]
+position = Vector2(-444.00006, -15.000002)
+rotation = 1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 740)
+
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014648" type="Sprite2D" parent="Floor4"]
+position = Vector2(291.99994, -15.000034)
+rotation = 1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 740)
+
+[node name="VectorBrickWallPixelBlocksBackgroundPattern3844014649" type="Sprite2D" parent="Floor4"]
+position = Vector2(722, -15.000053)
+rotation = -1.5707964
+texture = ExtResource("2_yp0sw")
+region_enabled = true
+region_rect = Rect2(394.83246, 0, 345.16754, 513.356)
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
 position = Vector2(479, -125)

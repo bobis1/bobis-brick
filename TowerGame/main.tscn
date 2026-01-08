@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bywix6v5uwf6q" path="res://player.gd" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="3_1bvp3"]
-[ext_resource type="Script" path="res://health_bar.gd" id="3_5vw27"]
+[ext_resource type="Script" uid="uid://byuyrw6db0arx" path="res://health_bar.gd" id="3_5vw27"]
 [ext_resource type="PackedScene" uid="uid://bcsymje6nuo77" path="res://Obsts/Enemy.tscn" id="3_h2yge"]
 [ext_resource type="Script" uid="uid://0jck0f6mx15h" path="res://enemy_spawner.gd" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://c4u80btoh01vh" path="res://platform_spawner.gd" id="5_7mycd"]
@@ -81,7 +81,7 @@ scale = Vector2(13.96, 1)
 texture = ExtResource("3_1bvp3")
 
 [node name="StairBlock" parent="." instance=ExtResource("5_lquwl")]
-position = Vector2(12, -111)
+position = Vector2(15, -111)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
