@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cx5aq2ichi2uw"]
+[gd_scene load_steps=6 format=3 uid="uid://cx5aq2ichi2uw"]
 
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="1_fmgqs"]
 [ext_resource type="Texture2D" uid="uid://cw22f1i4t0s2f" path="res://images/vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg" id="2_yp0sw"]
+[ext_resource type="Texture2D" uid="uid://cbc1546q3652l" path="res://images/README.png" id="3_eralg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yp0sw"]
 size = Vector2(1777, 121)
@@ -48,7 +49,7 @@ region_enabled = true
 region_rect = Rect2(394.83246, 0, 345.16754, 513.356)
 
 [node name="Floor4" type="RigidBody2D" parent="."]
-position = Vector2(1106, -774)
+position = Vector2(1106, -775)
 rotation = 1.5707964
 can_sleep = false
 freeze = true
@@ -95,11 +96,11 @@ scale = Vector2(2.2639976, 1)
 shape = SubResource("RectangleShape2D_fmgqs")
 one_way_collision = true
 
-[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
-position = Vector2(88.42382, 109.839035)
-rotation = -0.67710805
-scale = Vector2(5.659994, 1)
-texture = ExtResource("1_fmgqs")
+[node name="Readme" type="Sprite2D" parent="RigidBody2D"]
+position = Vector2(123.036575, 156.97772)
+rotation = -0.67718774
+scale = Vector2(6, 6)
+texture = ExtResource("3_eralg")
 
 [node name="RigidBody2D3" type="RigidBody2D" parent="."]
 position = Vector2(71, -608)
@@ -113,11 +114,11 @@ scale = Vector2(2.2639976, 1)
 shape = SubResource("RectangleShape2D_fmgqs")
 one_way_collision = true
 
-[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D3"]
-position = Vector2(88.42382, 109.839035)
-rotation = -0.67710805
-scale = Vector2(5.659994, 1)
-texture = ExtResource("1_fmgqs")
+[node name="Readme2" type="Sprite2D" parent="RigidBody2D3"]
+position = Vector2(111.7229, 162.63458)
+rotation = -0.67718774
+scale = Vector2(6, 6)
+texture = ExtResource("3_eralg")
 
 [node name="RigidBody2D5" type="RigidBody2D" parent="."]
 position = Vector2(333.00003, -1031)
@@ -131,11 +132,11 @@ scale = Vector2(2.2639976, 1)
 shape = SubResource("RectangleShape2D_fmgqs")
 one_way_collision = true
 
-[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D5"]
-position = Vector2(88.42382, 109.839035)
-rotation = -0.67710805
-scale = Vector2(5.659994, 1)
-texture = ExtResource("1_fmgqs")
+[node name="Readme3" type="Sprite2D" parent="RigidBody2D5"]
+position = Vector2(138.5929, 142.83562)
+rotation = -0.67718774
+scale = Vector2(6, 6)
+texture = ExtResource("3_eralg")
 
 [node name="RigidBody2D7" type="RigidBody2D" parent="."]
 position = Vector2(171.99994, -1507.0001)
@@ -149,11 +150,11 @@ scale = Vector2(2.2639976, 1)
 shape = SubResource("RectangleShape2D_fmgqs")
 one_way_collision = true
 
-[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D7"]
-position = Vector2(88.42382, 109.839035)
-rotation = -0.67710805
-scale = Vector2(5.659994, 1)
-texture = ExtResource("1_fmgqs")
+[node name="Readme4" type="Sprite2D" parent="RigidBody2D7"]
+position = Vector2(122.32956, 156.2705)
+rotation = -0.67718774
+scale = Vector2(6, 6)
+texture = ExtResource("3_eralg")
 
 [node name="LeftEnemySpawn" type="Marker2D" parent="." groups=["EnemySpawn"]]
 position = Vector2(-452, -71)

@@ -20,15 +20,16 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1767497577::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1767497577::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1767497577::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1767497577::0::1::::<>RefCounted<><>0<>0<><>::
-::res://images/::1767843553
+::res://images/::1767876322
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1767497577::1767497577::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1767497577::1767497577::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1767497577::1767497577::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
+README.png::CompressedTexture2D::4848792753993158289::1767876294::1767876330::1::::<><><>0<>0<>9cde6976c9c4ae4dac019b3d5bd27c05<>res://.godot/imported/README.png-bd1b6f1147438d64cd23ffc4ad464a24.ctex::
 vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg::CompressedTexture2D::6374383793866308603::1767843148::1767843225::1::::<><><>0<>0<>d60fb2f5307ef38bd2c57cc68ee61eb7<>res://.godot/imported/vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg-fe8f4601d59675f9c579706fa202d423.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/::1767843550
+::res://images/2D Pixel Dungeon Asset Pack/::1767843554
 Dungeon_Character_at.png::CompressedTexture2D::533940795634585874::1544184286::1767843554::1::::<><><>0<>0<>306208b29797b93cb9533c50bb23a5df<>res://.godot/imported/Dungeon_Character_at.png-2f04c14cf668b32088eb2e5a6d964aba.ctex::
 Dungeon_Tileset_at.png::CompressedTexture2D::3037963184810977831::1544184378::1767843554::1::::<><><>0<>0<>417641ab745ee54bc334d995420c0749<>res://.godot/imported/Dungeon_Tileset_at.png-aa723c0cf87c884f018685d8ac283f9b.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/character and tileset/::1544184704
+::res://images/2D Pixel Dungeon Asset Pack/character and tileset/::1767843554
 demonstration.png::CompressedTexture2D::4789203453262030434::1544515828::1767843554::1::::<><><>0<>0<>e2c5b9a4d7cb105753bc22849be3df5f<>res://.godot/imported/demonstration.png-7c8e732805a743c5774040914c88dddc.ctex::
 Dungeon_Character.png::CompressedTexture2D::5970421478174206842::1544172704::1767843554::1::::<><><>0<>0<>093292e07a60f0e01745e466b91a900d<>res://.godot/imported/Dungeon_Character.png-6f3bf045b799b5bd2f6ae1b7ccb912a1.ctex::
 Dungeon_Character_2.png::CompressedTexture2D::9175067798928294369::1544184160::1767843554::1::::<><><>0<>0<>7c8b45e4854bdbaba42b04ad29635d98<>res://.godot/imported/Dungeon_Character_2.png-0c773c1a863052e287d355dfa6ad0c8c.ctex::
@@ -36,84 +37,84 @@ Dungeon_Tileset.png::CompressedTexture2D::8430125705856511065::1544204864::17678
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/::1544182224
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/::1544182862
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/::1544182806
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/::1544183014
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/::1767843554
 skeleton_v1_1.png::CompressedTexture2D::2937753869665912417::1544183156::1767843554::1::::<><><>0<>0<>83b964460ca6c8f52a63512a0551749d<>res://.godot/imported/skeleton_v1_1.png-82fd7f1df843ee915555880573435f6f.ctex::
 skeleton_v1_2.png::CompressedTexture2D::2851782338380713238::1544183156::1767843554::1::::<><><>0<>0<>380a54a28235f2dd0483bbba31ff82dd<>res://.godot/imported/skeleton_v1_2.png-58de3081dce85099106d0db098853a2f.ctex::
 skeleton_v1_3.png::CompressedTexture2D::2467366872849468156::1544183156::1767843554::1::::<><><>0<>0<>a4a013000b84d192b4e777912216fd3d<>res://.godot/imported/skeleton_v1_3.png-7e755d9ad52a8697df47aace422f3468.ctex::
 skeleton_v1_4.png::CompressedTexture2D::6010141555725977746::1544183156::1767843554::1::::<><><>0<>0<>5321c50b5d219ba1d0430f0018ed2896<>res://.godot/imported/skeleton_v1_4.png-678c70fc39a9670aeb38df42ef100b5f.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/::1544183116
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/::1767843554
 skeleton_v2_1.png::CompressedTexture2D::7281137186179333674::1544183116::1767843554::1::::<><><>0<>0<>0fccf681763819cb9111a526729be83c<>res://.godot/imported/skeleton_v2_1.png-1592c5baaed9e28e356f00c3e8dbce58.ctex::
 skeleton_v2_2.png::CompressedTexture2D::7644465773032407821::1544183116::1767843554::1::::<><><>0<>0<>507cb6a193f2e020af9e044316713164<>res://.godot/imported/skeleton_v2_2.png-1a8e6bf0d1ef5197f77c362d436f572a.ctex::
 skeleton_v2_3.png::CompressedTexture2D::7776174604667341250::1544183116::1767843554::1::::<><><>0<>0<>e99428ff4c1bf349b2fa5ba0f95c96d3<>res://.godot/imported/skeleton_v2_3.png-1874ccaca810682c589c78c6b0464069.ctex::
 skeleton_v2_4.png::CompressedTexture2D::7457080421920898535::1544183116::1767843554::1::::<><><>0<>0<>eda9d6d3b53f5a51e444403bf989d2d6<>res://.godot/imported/skeleton_v2_4.png-dd003412e7775a65bcabbf2a3d6f304c.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/::1544182844
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/::1544183302
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/::1767843554
 skeleton2_v1_1.png::CompressedTexture2D::2156803737401347103::1544183302::1767843554::1::::<><><>0<>0<>e936db20e8224a1a136bb92ecf76e498<>res://.godot/imported/skeleton2_v1_1.png-5c0ea7a4f0ddeb6f82865b16a4d08f15.ctex::
 skeleton2_v1_2.png::CompressedTexture2D::7604170624151274608::1544183302::1767843554::1::::<><><>0<>0<>5218f82e816dfe4f94994bf1ca75a742<>res://.godot/imported/skeleton2_v1_2.png-82f008fd7891350e975e274db5932f1d.ctex::
 skeleton2_v1_3.png::CompressedTexture2D::3756282732835806567::1544183302::1767843554::1::::<><><>0<>0<>ac799eccbe08aff411e59bfd9acb08c9<>res://.godot/imported/skeleton2_v1_3.png-49087eef0b51d3e9f47d3c6587b65ea6.ctex::
 skeleton2_v1_4.png::CompressedTexture2D::9107350419312440629::1544183302::1767843554::1::::<><><>0<>0<>a63b33490b9522e11eb70086ddfde938<>res://.godot/imported/skeleton2_v1_4.png-5a5ede7bc482e5375c97cbac5da9b7b7.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/::1544183342
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/::1767843554
 skeleton2_v2_1.png::CompressedTexture2D::829033783961358342::1544183342::1767843554::1::::<><><>0<>0<>0dffa61b59e14347b193b4e660b6cc38<>res://.godot/imported/skeleton2_v2_1.png-2201ddfbb1537f2e35635047c87226cf.ctex::
 skeleton2_v2_2.png::CompressedTexture2D::5332751941176907511::1544183342::1767843554::1::::<><><>0<>0<>87c30decbb81def769ff5f4d7a04ce34<>res://.godot/imported/skeleton2_v2_2.png-a795cd6116181f44167917e4cfc9256a.ctex::
 skeleton2_v2_3.png::CompressedTexture2D::3451745690669235734::1544183342::1767843554::1::::<><><>0<>0<>68b762931a9e63b0b73532cdda41e91b<>res://.godot/imported/skeleton2_v2_3.png-cb8e0538599832f956a78ac6396173e8.ctex::
 skeleton2_v2_4.png::CompressedTexture2D::1134427341083932422::1544183342::1767843554::1::::<><><>0<>0<>4366db1cca33923f67b5bed9d1c86cd7<>res://.godot/imported/skeleton2_v2_4.png-149fe70df2d068f3a592f8eff42a3ecf.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/::1544182538
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/::1544182564
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/::1767843554
 skull_v1_1.png::CompressedTexture2D::5657209073037505427::1544182672::1767843554::1::::<><><>0<>0<>4fa4eedaee3c4eb9b87e01f494b456f7<>res://.godot/imported/skull_v1_1.png-b52e23109e73f34c950dcc9c4d73d21a.ctex::
 skull_v1_2.png::CompressedTexture2D::6641626216964515923::1544182672::1767843554::1::::<><><>0<>0<>b0e5ec79916ad1d52888033cd9ecf5be<>res://.godot/imported/skull_v1_2.png-edf96bbd8077d9ec30d3524ebeee55f3.ctex::
 skull_v1_3.png::CompressedTexture2D::5208815175798809397::1544182672::1767843554::1::::<><><>0<>0<>ee92fdbdfab385d1447f5d305ae9432c<>res://.godot/imported/skull_v1_3.png-534ffd7dbce9e2b79b9c3f3cfe06976b.ctex::
 skull_v1_4.png::CompressedTexture2D::7078642471775728062::1544182672::1767843554::1::::<><><>0<>0<>679a717bc5006c3b9cf8245463c52263<>res://.godot/imported/skull_v1_4.png-0a9d6c9d6ebc47ac31386f34c0310682.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/::1544182580
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/::1767843554
 skull_v2_1.png::CompressedTexture2D::683848278699912152::1544182706::1767843554::1::::<><><>0<>0<>c929f0026d039de16c52090ccd41ad3c<>res://.godot/imported/skull_v2_1.png-dbb5971fe2eed2ebadac2d21a3ce4375.ctex::
 skull_v2_2.png::CompressedTexture2D::2225270953750770228::1544182706::1767843554::1::::<><><>0<>0<>603e4d24473851cb211c676cedd3c569<>res://.godot/imported/skull_v2_2.png-600b81da855cbb274c643c958ddef441.ctex::
 skull_v2_3.png::CompressedTexture2D::2679143086389707697::1544182706::1767843554::1::::<><><>0<>0<>e0174259fc3075a8743571660a1b11b8<>res://.godot/imported/skull_v2_3.png-3ae76b9c574a29a9993663faefc92df1.ctex::
 skull_v2_4.png::CompressedTexture2D::2701589534487369890::1544182706::1767843554::1::::<><><>0<>0<>8d547acf771fd33cf3bdbf45ccbbedb3<>res://.godot/imported/skull_v2_4.png-be5e2b2dd99b8ba859b780ff5dfb88cc.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/::1544182344
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/::1544182392
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/::1767843554
 vampire_v1_1.png::CompressedTexture2D::4365812997236399940::1544182392::1767843554::1::::<><><>0<>0<>69d7438b989732716e643fe55deda48a<>res://.godot/imported/vampire_v1_1.png-88eebfdc91c0af492c8729c40667feae.ctex::
 vampire_v1_2.png::CompressedTexture2D::5589673695893526539::1544182392::1767843554::1::::<><><>0<>0<>bf6ba6b37705bec4b687b6952f899c5b<>res://.godot/imported/vampire_v1_2.png-35ed8c29cb198959b5db7f826399d46a.ctex::
 vampire_v1_3.png::CompressedTexture2D::3044774800644206367::1544182392::1767843554::1::::<><><>0<>0<>1a9048fef3b9e5eeb0bf9c580d06a744<>res://.godot/imported/vampire_v1_3.png-26f15b4967a292684cf2bd401461f486.ctex::
 vampire_v1_4.png::CompressedTexture2D::909226380502033463::1544182392::1767843554::1::::<><><>0<>0<>a112cfc6bfc0c2005b7b36a90f53b498<>res://.godot/imported/vampire_v1_4.png-5dc040b377749dda072eaf4b93cc6c50.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/::1544182420
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/::1767843554
 vampire_v2_1.png::CompressedTexture2D::5758776963600071882::1544182420::1767843554::1::::<><><>0<>0<>a51d4b3ef83eaeae92af26db56ea15bc<>res://.godot/imported/vampire_v2_1.png-aac5dbc2a818d9be97eb8952b263ddf3.ctex::
 vampire_v2_2.png::CompressedTexture2D::1192958312621179280::1544182420::1767843554::1::::<><><>0<>0<>e14d33aeaf04503357c481fb9ec6449d<>res://.godot/imported/vampire_v2_2.png-ade4e0da66f7c9a9021e4f635f6d68ad.ctex::
 vampire_v2_3.png::CompressedTexture2D::6150681503659073328::1544182420::1767843554::1::::<><><>0<>0<>884e71bba7c91ef8279302694084f4f5<>res://.godot/imported/vampire_v2_3.png-4517cf1dcdc5845a046d5071d5b31b94.ctex::
 vampire_v2_4.png::CompressedTexture2D::7108051051158193699::1544182420::1767843554::1::::<><><>0<>0<>3427f79229cb2f61aab1dae6d2ab6232<>res://.godot/imported/vampire_v2_4.png-80b0584e9e786fc391ea1146a172ffaa.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/::1544174346
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/::1544174384
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/::1544174498
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/::1767843554
 priest1_v1_1.png::CompressedTexture2D::4068746882392231841::1544174438::1767843554::1::::<><><>0<>0<>3993422cee945900ded48bc506bf2ce0<>res://.godot/imported/priest1_v1_1.png-66db5aa4dcdb3bfbc5e3bd5897eaf18c.ctex::
 priest1_v1_2.png::CompressedTexture2D::8462569902642185659::1544174438::1767843554::1::::<><><>0<>0<>08fc290997d7001bb2f6b960e844fb2f<>res://.godot/imported/priest1_v1_2.png-6367ff7d647645bb9ebf0b002de20f89.ctex::
 priest1_v1_3.png::CompressedTexture2D::453272683883898413::1544174438::1767843554::1::::<><><>0<>0<>268c3250302276323aa8a8fee53fb6d0<>res://.godot/imported/priest1_v1_3.png-6368b483eccbe798aac6c3090125bad3.ctex::
 priest1_v1_4.png::CompressedTexture2D::4531228276693632875::1544174438::1767843554::1::::<><><>0<>0<>943d92cfeda0f77e5f8c067b7eb2fcea<>res://.godot/imported/priest1_v1_4.png-6a84989804dc94794212ac99df055ef6.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/::1544174522
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/::1767843554
 priest1_v2_1.png::CompressedTexture2D::1735888633322016463::1544174522::1767843554::1::::<><><>0<>0<>d05fde8c45fd45806c7ac9eb08e23073<>res://.godot/imported/priest1_v2_1.png-7ed796a35f0f7b21cca7e1aca4d777ae.ctex::
 priest1_v2_2.png::CompressedTexture2D::8914570141771003529::1544174522::1767843554::1::::<><><>0<>0<>fc5eafe3d3410bf2b7d9f529cd70a4db<>res://.godot/imported/priest1_v2_2.png-2848cd4b8bfb51ea97fcfc22a3109f90.ctex::
 priest1_v2_3.png::CompressedTexture2D::7728295797605781557::1544174522::1767843554::1::::<><><>0<>0<>3a5c9dfefb58af3bd6f752e84334b226<>res://.godot/imported/priest1_v2_3.png-5af949fb56f2705b77e9b25591299560.ctex::
 priest1_v2_4.png::CompressedTexture2D::6366117107794111929::1544174522::1767843554::1::::<><><>0<>0<>7ccf3100ed5bdbb0b2b2a36ca8b02621<>res://.godot/imported/priest1_v2_4.png-179412b5a9a9a699d8caf57e8768c33e.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/::1544174564
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/::1544174606
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/::1767843554
 priest2_v1_1.png::CompressedTexture2D::7468188497836040437::1544174606::1767843554::1::::<><><>0<>0<>77120a2e708cc0e9d212ba26ebc8ac08<>res://.godot/imported/priest2_v1_1.png-360df295cb15b930fa8f513615844e7a.ctex::
 priest2_v1_2.png::CompressedTexture2D::8387517871896414679::1544174606::1767843554::1::::<><><>0<>0<>64f84c2ba2c282f59a829f66ba8bcdce<>res://.godot/imported/priest2_v1_2.png-83443638d105b8a73e00afc77a54efab.ctex::
 priest2_v1_3.png::CompressedTexture2D::684443457056622984::1544174606::1767843554::1::::<><><>0<>0<>23ff2e6ce2e79ab0879c8318a275f566<>res://.godot/imported/priest2_v1_3.png-746eb35a9752baa99aa2d5fd1a128459.ctex::
 priest2_v1_4.png::CompressedTexture2D::6039805485761651232::1544174606::1767843554::1::::<><><>0<>0<>5c32f8e44bd20d7d2913837375a5218f<>res://.godot/imported/priest2_v1_4.png-d47effbee662ee7f48524d218558ce4e.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/::1544174620
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/::1767843554
 priest2_v2_1.png::CompressedTexture2D::6523199568433706499::1544174620::1767843554::1::::<><><>0<>0<>1b055b6b790d87f37a1ec56ae00394bb<>res://.godot/imported/priest2_v2_1.png-541b6813019d89a830939cec473828fd.ctex::
 priest2_v2_2.png::CompressedTexture2D::5812765993493993630::1544174620::1767843554::1::::<><><>0<>0<>fce225e0e8f557a5a17bdfd4f14df063<>res://.godot/imported/priest2_v2_2.png-094e817c4c6f08ff352bf8342a3ca31f.ctex::
 priest2_v2_3.png::CompressedTexture2D::2372518403427156666::1544174620::1767843554::1::::<><><>0<>0<>f3015ef2378f11639642a16fdf9ef00e<>res://.godot/imported/priest2_v2_3.png-d0e0bab434711812bcc168c5bdd71cd2.ctex::
 priest2_v2_4.png::CompressedTexture2D::2525491337193701504::1544174620::1767843554::1::::<><><>0<>0<>3cd407032296c5ba5744c767f429616d<>res://.godot/imported/priest2_v2_4.png-0be459448de5e507299d32a8d9353720.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/::1544174650
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/::1544174692
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/::1767843554
 priest3_v1_1.png::CompressedTexture2D::5227296460885366110::1544174692::1767843554::1::::<><><>0<>0<>3e27766203405dc4dda2b7aacd5a354a<>res://.godot/imported/priest3_v1_1.png-77093760c1d1682bf5df7aaa3629e293.ctex::
 priest3_v1_2.png::CompressedTexture2D::6555431901361604113::1544174692::1767843554::1::::<><><>0<>0<>831613104656343d2e589a134f5f2f88<>res://.godot/imported/priest3_v1_2.png-402e6d393ae61d77a064e5450c07294a.ctex::
 priest3_v1_3.png::CompressedTexture2D::4784473967106697081::1544174692::1767843554::1::::<><><>0<>0<>26e06ef6271be44f1e81e922cb8a38e3<>res://.godot/imported/priest3_v1_3.png-706c44477dc22875ff3f71324ec5376f.ctex::
 priest3_v1_4.png::CompressedTexture2D::5024708449307076908::1544174692::1767843554::1::::<><><>0<>0<>5b177d96d073d4743e573a26e855d6d6<>res://.godot/imported/priest3_v1_4.png-fbf6e2246091fcb4efdc9477d0296d12.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/::1544174708
+::res://images/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/::1767843554
 priest3_v2_1.png::CompressedTexture2D::3383307363582116543::1544174708::1767843554::1::::<><><>0<>0<>f06491c5f8e433ad6a25201352e6a867<>res://.godot/imported/priest3_v2_1.png-41c3b0c6766fb025e0997ceab0c81789.ctex::
 priest3_v2_2.png::CompressedTexture2D::6384943458675047020::1544174708::1767843554::1::::<><><>0<>0<>96e8f751169e722e2263ae71534cb3e3<>res://.godot/imported/priest3_v2_2.png-03e4e0f3c872c6688427f16ec3ee3647.ctex::
 priest3_v2_3.png::CompressedTexture2D::2435199080239885048::1544174708::1767843554::1::::<><><>0<>0<>c349b1bdc29ee4cbd512fac8cba49716<>res://.godot/imported/priest3_v2_3.png-d668a9c1500b3178d9830839c7c3ffe6.ctex::
 priest3_v2_4.png::CompressedTexture2D::8446171674739210125::1544174708::1767843554::1::::<><><>0<>0<>ecac34cdcda20c8024172ed0a2cd04f4<>res://.godot/imported/priest3_v2_4.png-d6d34a1ed787c8e76f38231d32a794a3.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/interface/::1544183972
+::res://images/2D Pixel Dungeon Asset Pack/interface/::1767843554
 arrow_1.png::CompressedTexture2D::8636399311561150805::1544183972::1767843554::1::::<><><>0<>0<>64a4bd2bffd2c9013bf7014de8ceec71<>res://.godot/imported/arrow_1.png-d069fa2c2baff77b7c055f47bb124f34.ctex::
 arrow_2.png::CompressedTexture2D::5884697236024558930::1544183972::1767843554::1::::<><><>0<>0<>459ee76a9ab667a5333b73381245bcfb<>res://.godot/imported/arrow_2.png-9c3f8f5726ab5cefdad122312ad0ec5e.ctex::
 arrow_3.png::CompressedTexture2D::976344553080018834::1544183972::1767843554::1::::<><><>0<>0<>e9c14c7eee2350ec0d2ee1fa209454f3<>res://.godot/imported/arrow_3.png-0234ee1acad84849d51766bf5d045e7a.ctex::
@@ -139,23 +140,23 @@ square_up_down_2.png::CompressedTexture2D::9182698997969724384::1544183640::1767
 square_up_down_3.png::CompressedTexture2D::6758070908839198630::1544183640::1767843554::1::::<><><>0<>0<>4c8928c175ff4b101b73ba5e2dd321b4<>res://.godot/imported/square_up_down_3.png-1a228a1f8812e6cf79d4f628a83acfc4.ctex::
 square_up_down_4.png::CompressedTexture2D::2823764844920965952::1544183640::1767843554::1::::<><><>0<>0<>ac9655571a22898d8eccc3084e4dca67<>res://.godot/imported/square_up_down_4.png-d78da46858e497e0b8b4a7c33c8277ea.ctex::
 ::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/::1544514360
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/::1544514436
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/::1767843554
 arrow_1.png::CompressedTexture2D::5016091229678606748::1544514386::1767843554::1::::<><><>0<>0<>c1b9e272fd2b3aefa90dbec1e7fbaee8<>res://.godot/imported/arrow_1.png-1fd7b8d3a99e022db2616d3766f16274.ctex::
 arrow_2.png::CompressedTexture2D::3042267605475572502::1544514386::1767843554::1::::<><><>0<>0<>64dc69c09f9af5124b531f48ab10a822<>res://.godot/imported/arrow_2.png-76c16a239f5c1a8ad5680b5ec082740d.ctex::
 arrow_3.png::CompressedTexture2D::3255223876734221781::1544514386::1767843554::1::::<><><>0<>0<>c7fc11659f58387e356a9ef1804ee2a8<>res://.godot/imported/arrow_3.png-fad569f3a2f4deec4b4cde700e77d981.ctex::
 arrow_4.png::CompressedTexture2D::4479043842374094907::1544514386::1767843554::1::::<><><>0<>0<>2a7a5020e35de04f25ed096055d195a6<>res://.godot/imported/arrow_4.png-e906579435f72f438f1c96e97c51903a.ctex::
 Just_arrow.png::CompressedTexture2D::5296208081888058326::1544514436::1767843554::1::::<><><>0<>0<>c502185019cda2b7960edb98809da2cd<>res://.godot/imported/Just_arrow.png-174086e5a6fe01b3a69028d2ee838067.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/::1544506772
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/::1767843554
 box_1_1.png::CompressedTexture2D::1979874009241307917::1544506766::1767843554::1::::<><><>0<>0<>c4b1b899dda9604cadcb2c4b00b534bd<>res://.godot/imported/box_1_1.png-54c61056666a759692e4edb5c9975a22.ctex::
 box_1_2.png::CompressedTexture2D::6024199142358593737::1544506766::1767843554::1::::<><><>0<>0<>20917b04d6e7f5daae60fea2993e2a23<>res://.godot/imported/box_1_2.png-488c7fefb1b7df098ad93158948dfdec.ctex::
 box_1_3.png::CompressedTexture2D::33903556440217188::1544506766::1767843554::1::::<><><>0<>0<>c393b9e8e369653995362681fb5c325b<>res://.godot/imported/box_1_3.png-b97d6b7414e3408a377cf3626c7d534b.ctex::
 box_1_4.png::CompressedTexture2D::8360694879536218922::1544506768::1767843554::1::::<><><>0<>0<>2f8b9b903057839b20d90d3bad34ca07<>res://.godot/imported/box_1_4.png-9a84d47eb5b386455cd0e12dfc13ceed.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/::1544506830
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/::1767843554
 box_2_1.png::CompressedTexture2D::1389174251609343562::1544506830::1767843554::1::::<><><>0<>0<>17848ff9da4422d406cde30de70e349f<>res://.godot/imported/box_2_1.png-515ab795a113768edd9280ec6ed14240.ctex::
 box_2_2.png::CompressedTexture2D::7053990367569658210::1544506830::1767843554::1::::<><><>0<>0<>9a9dd7e9c154f0b60b9f222ebf19d4ad<>res://.godot/imported/box_2_2.png-ac35122551df59f34bf9eb2b08cd6437.ctex::
 box_2_3.png::CompressedTexture2D::1298445081843403000::1544506830::1767843554::1::::<><><>0<>0<>7dbb2fb504c5d069ce7d9a89845b70e8<>res://.godot/imported/box_2_3.png-bd6d91e89a4fa1a700295836e774f5f4.ctex::
 box_2_4.png::CompressedTexture2D::396574842286483597::1544506830::1767843554::1::::<><><>0<>0<>6069570a8fb60cacc7e25e41e0cada6a<>res://.godot/imported/box_2_4.png-85fb4d4d8f0397f5e060cd0f5a601e0c.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/::1544508622
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/::1767843554
 chest_1.png::CompressedTexture2D::7472836085327636509::1544508602::1767843554::1::::<><><>0<>0<>26cab059d397f1f782f6ad2997fed2f3<>res://.godot/imported/chest_1.png-5f7ad8e910d6d4bb008c8da5501095cc.ctex::
 chest_2.png::CompressedTexture2D::6056229763883566830::1544508602::1767843554::1::::<><><>0<>0<>d18ec7eeddc01eae7ce3b103f61e91fd<>res://.godot/imported/chest_2.png-c9fbda3cf6582c2c5566ae554f8728ed.ctex::
 chest_3.png::CompressedTexture2D::5897130688954021043::1544508602::1767843554::1::::<><><>0<>0<>1928c8ae41d0ff103e0e344edb0a4127<>res://.godot/imported/chest_3.png-32c36e4764a3bd599020cfda7fe59ab2.ctex::
@@ -164,17 +165,17 @@ chest_open_1.png::CompressedTexture2D::8942340839345946128::1544508622::17678435
 chest_open_2.png::CompressedTexture2D::5025648347027289473::1544508622::1767843554::1::::<><><>0<>0<>f0ac90962f431d8b24d22a6e29706ada<>res://.godot/imported/chest_open_2.png-0a7881e11f18b9a65055e59addc29587.ctex::
 chest_open_3.png::CompressedTexture2D::5934068223096406901::1544508622::1767843554::1::::<><><>0<>0<>afeb82817b529f81f5d03c4741ddcab7<>res://.godot/imported/chest_open_3.png-2290d9b81e043675bf1ab488dd845031.ctex::
 chest_open_4.png::CompressedTexture2D::605454875319190539::1544508622::1767843554::1::::<><><>0<>0<>a7a9c5d45cffa801dc7927feb2f4cab0<>res://.godot/imported/chest_open_4.png-5f5f629faffdfa1d1bbb0da600572aca.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/::1544181998
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/::1767843554
 coin_1.png::CompressedTexture2D::4724212168185276321::1544181998::1767843554::1::::<><><>0<>0<>472b47ebd3c7d3307585eee41eac1edb<>res://.godot/imported/coin_1.png-6a3272b6a68d7c065d015ced82b25f1a.ctex::
 coin_2.png::CompressedTexture2D::7095604470899696694::1544181998::1767843554::1::::<><><>0<>0<>01dcf1989ec272d9e5419fe0334c920c<>res://.godot/imported/coin_2.png-3ec5a72c5259b1a38a52b3d06a85cd23.ctex::
 coin_3.png::CompressedTexture2D::8754575169358104536::1544181998::1767843554::1::::<><><>0<>0<>1e5ccd32d2e64e8a31f6c1cb9a173bd4<>res://.godot/imported/coin_3.png-9db6d3fd433bc0d56e65b5bff478ae45.ctex::
 coin_4.png::CompressedTexture2D::8452535925969477249::1544181998::1767843554::1::::<><><>0<>0<>8b089260336c49a1e476883f82adea4c<>res://.godot/imported/coin_4.png-15204b50c79a5c087c63a5e77dc8f06d.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/::1544181892
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/::1767843554
 flag_1.png::CompressedTexture2D::3184646010587762559::1544181892::1767843554::1::::<><><>0<>0<>55d746735e2cc5e2ddbd40bc25b77af3<>res://.godot/imported/flag_1.png-a8e5f36e58bed0eddb1cfad7b2fb9c57.ctex::
 flag_2.png::CompressedTexture2D::2024150164587710136::1544181892::1767843554::1::::<><><>0<>0<>9e4597afd06a2a07ea0628ed93273125<>res://.godot/imported/flag_2.png-f45bf1b89b544c3970c32a42f77dddff.ctex::
 flag_3.png::CompressedTexture2D::6424535155792229156::1544181892::1767843554::1::::<><><>0<>0<>987b75ce7b79623c7e3ccea4ee6bcfa3<>res://.godot/imported/flag_3.png-5b80e5f1f2d5a137d69df18250feef8b.ctex::
 flag_4.png::CompressedTexture2D::8985728981098794286::1544181892::1767843554::1::::<><><>0<>0<>4243b02b4567267c5e8e113e492333c7<>res://.godot/imported/flag_4.png-ea6f9e967425a862d05e115597cc36e3.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/::1544513862
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/::1767843554
 flamethrower_1_1.png::CompressedTexture2D::3008697758756692393::1544513572::1767843554::1::::<><><>0<>0<>3aef51c1766744bb175c0e1d61f85517<>res://.godot/imported/flamethrower_1_1.png-d075587b7234d33ce53639739ba33ea0.ctex::
 flamethrower_1_2.png::CompressedTexture2D::9189841793099584714::1544513572::1767843554::1::::<><><>0<>0<>8c8f2a33fb90266396f7f4a74bda7b4b<>res://.godot/imported/flamethrower_1_2.png-6c163d5ee8cf52b6a793f8b9ccb46976.ctex::
 flamethrower_1_3.png::CompressedTexture2D::8425397492624638037::1544513572::1767843554::1::::<><><>0<>0<>4eeda805d5650fe218aee8604dc23ba6<>res://.godot/imported/flamethrower_1_3.png-c83c6088b81d9eeaeafd87f6736f6d17.ctex::
@@ -183,7 +184,7 @@ flamethrower_2_1.png::CompressedTexture2D::7918886469682176765::1544513862::1767
 flamethrower_2_2.png::CompressedTexture2D::4917489108369557718::1544513862::1767843554::1::::<><><>0<>0<>edb36c5dc0450faaa9a038ac9a242509<>res://.godot/imported/flamethrower_2_2.png-ce791613b571e5624ffcbad5e79a0093.ctex::
 flamethrower_2_3.png::CompressedTexture2D::2516417406564184329::1544513862::1767843554::1::::<><><>0<>0<>5fda5e67c46179b8470079f1d8d22faa<>res://.godot/imported/flamethrower_2_3.png-3e9af0255d6892354de79248c2a57b33.ctex::
 flamethrower_2_4.png::CompressedTexture2D::8951296085502768986::1544513862::1767843554::1::::<><><>0<>0<>fdb92523f747b9db2681cd4f11f14fb7<>res://.godot/imported/flamethrower_2_4.png-8061ad467aef113bd66a93836b6bbbd1.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/::1544180604
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/::1767843554
 flasks_1_1.png::CompressedTexture2D::6803141843689004424::1544180568::1767843554::1::::<><><>0<>0<>b4044818fbaff1303b8ece34a1bdb2f0<>res://.godot/imported/flasks_1_1.png-6c286dbbd8f27f7c357d90b003f78699.ctex::
 flasks_1_2.png::CompressedTexture2D::1884707647383985527::1544180568::1767843554::1::::<><><>0<>0<>589e259f5d3a29f9768b3abae3ee338b<>res://.godot/imported/flasks_1_2.png-0dc5a27072514257f2ee43b017d3adbf.ctex::
 flasks_1_3.png::CompressedTexture2D::5128809116776253567::1544180568::1767843554::1::::<><><>0<>0<>b6153bb0cbf510fce7e8876694f213a4<>res://.godot/imported/flasks_1_3.png-ff9b7a3eec433a59d6d001f907573bf0.ctex::
@@ -200,7 +201,7 @@ flasks_4_1.png::CompressedTexture2D::1726367156318617065::1544180604::1767843554
 flasks_4_2.png::CompressedTexture2D::6390821590761561038::1544180604::1767843554::1::::<><><>0<>0<>277bd5585e153c89571f9f2e65410366<>res://.godot/imported/flasks_4_2.png-1d7b128eeecfa788ee8733718f2339bd.ctex::
 flasks_4_3.png::CompressedTexture2D::211682743340807721::1544180604::1767843554::1::::<><><>0<>0<>5126d7e1fb33c2480b56313c95f6ddb7<>res://.godot/imported/flasks_4_3.png-357e5ca8542f2903110f0beec8c786b4.ctex::
 flasks_4_4.png::CompressedTexture2D::3786411874391886878::1544180604::1767843554::1::::<><><>0<>0<>6542bb8628e01db1d60d49acea2b8dc6<>res://.godot/imported/flasks_4_4.png-035161aa320bc9c7292d077aec4c0806.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/::1544181044
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/::1767843554
 keys_1_1.png::CompressedTexture2D::6609640714338089953::1544180910::1767843554::1::::<><><>0<>0<>1f655bb1cd9a71aa41b353e48560c6ac<>res://.godot/imported/keys_1_1.png-c55d8f114b9a8972a5dcc0fe1c9d343b.ctex::
 keys_1_2.png::CompressedTexture2D::3842439595218184849::1544180910::1767843554::1::::<><><>0<>0<>443f454c09d4652444f9769e83b01bfd<>res://.godot/imported/keys_1_2.png-9ef84e7acd572fd7db86acb775081ce9.ctex::
 keys_1_3.png::CompressedTexture2D::8191057683262786888::1544180910::1767843554::1::::<><><>0<>0<>16da733dfd669e0cae00c832db9dfa71<>res://.godot/imported/keys_1_3.png-96bced5e87c484c72e4dbdf39641665b.ctex::
@@ -209,17 +210,17 @@ keys_2_1.png::CompressedTexture2D::3178695154606562504::1544180898::1767843554::
 keys_2_2.png::CompressedTexture2D::7279813433606932033::1544180898::1767843554::1::::<><><>0<>0<>b32602b5733760a29c604cf9e675182c<>res://.godot/imported/keys_2_2.png-114faea775c2a7c099b29e158a3ecb27.ctex::
 keys_2_3.png::CompressedTexture2D::7425449597954882319::1544180898::1767843554::1::::<><><>0<>0<>54be4516c5803894059bc4377c341c07<>res://.godot/imported/keys_2_3.png-365702740fe7c9854b5f987716bfec18.ctex::
 keys_2_4.png::CompressedTexture2D::8008653190155390747::1544180898::1767843554::1::::<><><>0<>0<>ff7ae07f5a5c3d9dcd5c4d76c59d4839<>res://.godot/imported/keys_2_4.png-cdb50b9886720d60976cd8349dafaabb.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/::1544507260
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/::1767843554
 mini_box_1_1.png::CompressedTexture2D::803998699084875123::1544507260::1767843554::1::::<><><>0<>0<>ce042b89511b09b1e9f0129fbd41afa8<>res://.godot/imported/mini_box_1_1.png-94ec51522c136be54a76cb77c54a2075.ctex::
 mini_box_1_2.png::CompressedTexture2D::3997125297672069372::1544507260::1767843554::1::::<><><>0<>0<>0a366e9ce2746f1697c013c1b3a1afd7<>res://.godot/imported/mini_box_1_2.png-4be8c0dd24f288ebf5b3d4268edc4509.ctex::
 mini_box_1_3.png::CompressedTexture2D::7102103798259882548::1544507260::1767843554::1::::<><><>0<>0<>200d340726ca13748c93a27cf2e21ede<>res://.godot/imported/mini_box_1_3.png-ea6a23e66bca9b41069a636f0b8db6a3.ctex::
 mini_box_1_4.png::CompressedTexture2D::8657412880658417508::1544507260::1767843554::1::::<><><>0<>0<>7a20bbea9441ca0a0951f553adaef68e<>res://.godot/imported/mini_box_1_4.png-06beaaa3ba8a72c76bea8c6eb4f672a5.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/::1544507720
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/::1767843554
 mini_box_2_1.png::CompressedTexture2D::2389781079756806147::1544507718::1767843554::1::::<><><>0<>0<>060bdb3a5dbe1899abf528c9d4b78be9<>res://.godot/imported/mini_box_2_1.png-aa6ab3420aa2eefa818d9da739c419c8.ctex::
 mini_box_2_2.png::CompressedTexture2D::9029065053331663080::1544507718::1767843554::1::::<><><>0<>0<>7c0c40bd95064ebd93701a0440087f3c<>res://.godot/imported/mini_box_2_2.png-0ce30aa9ac8c6848531d89cf5046a591.ctex::
 mini_box_2_3.png::CompressedTexture2D::3224591834406769085::1544507720::1767843554::1::::<><><>0<>0<>c49802a12f172e6f64a4b05a6a96c732<>res://.godot/imported/mini_box_2_3.png-99bc0f26f793575f4e8d931ae2799733.ctex::
 mini_box_2_4.png::CompressedTexture2D::4251227616771901163::1544507720::1767843554::1::::<><><>0<>0<>00447569ca132af68ffaf6c8f9b200f2<>res://.godot/imported/mini_box_2_4.png-067ac0a6e0c197c0080aec62b1ac1e2e.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/::1544509132
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/::1767843554
 mini_chest_1.png::CompressedTexture2D::3750052824778557678::1544509096::1767843554::1::::<><><>0<>0<>7ad48345425ebc3722ac42e23d310074<>res://.godot/imported/mini_chest_1.png-69352b4a06fad9a0bd0c44b5d6c38d75.ctex::
 mini_chest_2.png::CompressedTexture2D::3573791422518460491::1544509096::1767843554::1::::<><><>0<>0<>f25fff770f94ed7336ca161c0ebb4eb6<>res://.godot/imported/mini_chest_2.png-6ee75971d6e14ab600f77649a24b31cb.ctex::
 mini_chest_3.png::CompressedTexture2D::7893632105914008988::1544509096::1767843554::1::::<><><>0<>0<>d0908c53cb012e1bcac0ad1b8984832c<>res://.godot/imported/mini_chest_3.png-f0b89cc5897860ea5ab03dd40216d218.ctex::
@@ -228,12 +229,12 @@ mini_chest_open_1.png::CompressedTexture2D::1583405035679224949::1544509132::176
 mini_chest_open_2.png::CompressedTexture2D::3010880080614582133::1544509132::1767843554::1::::<><><>0<>0<>04455c2a35e403840ae904180d36c1cd<>res://.godot/imported/mini_chest_open_2.png-aa1186afce98bbb1898150f7db16c918.ctex::
 mini_chest_open_3.png::CompressedTexture2D::5335699983218829550::1544509132::1767843554::1::::<><><>0<>0<>66d9352df3189a4af78d4c1451406120<>res://.godot/imported/mini_chest_open_3.png-4d18b777f972706074d2f0a9baa61b3a.ctex::
 mini_chest_open_4.png::CompressedTexture2D::5673753115181061359::1544509132::1767843554::1::::<><><>0<>0<>6df64f8a5e9ec6022fac4887587a4e15<>res://.godot/imported/mini_chest_open_4.png-f6c895347e39e6d35c21303bc7254e9e.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/::1544512996
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/::1767843554
 peaks_1.png::CompressedTexture2D::1889224929188870234::1544512996::1767843554::1::::<><><>0<>0<>33e250dfe4e5af9b581166db387118ab<>res://.godot/imported/peaks_1.png-52632e433195e2712738d4eb8ee0ea0f.ctex::
 peaks_2.png::CompressedTexture2D::5224437356739082844::1544512996::1767843554::1::::<><><>0<>0<>73132fb670e225967ecada1e8308d018<>res://.godot/imported/peaks_2.png-d87608292902c92ce237f5f1297a7ace.ctex::
 peaks_3.png::CompressedTexture2D::4878764716431866377::1544512996::1767843554::1::::<><><>0<>0<>e9e4cc81b38c3bfc6b8d12eccb4d7b65<>res://.godot/imported/peaks_3.png-210c58f0a0c29f715c37055a988d73ad.ctex::
 peaks_4.png::CompressedTexture2D::1618199853494722672::1544512996::1767843554::1::::<><><>0<>0<>7f1e1013105e7cb5c7e9c24ac764b663<>res://.godot/imported/peaks_4.png-34fd64855a93b8547c72543d133969e1.ctex::
-::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/::1544181724
+::res://images/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/::1767843554
 candlestick_1_1.png::CompressedTexture2D::2141820146186985135::1544181708::1767843554::1::::<><><>0<>0<>a61668f29e8260787ea559a59624096f<>res://.godot/imported/candlestick_1_1.png-6b8668d8bd3c99151e9f31ef068b905c.ctex::
 candlestick_1_2.png::CompressedTexture2D::4220016875194320417::1544181708::1767843554::1::::<><><>0<>0<>9c2eb58167eaf391b48233237a7d03e7<>res://.godot/imported/candlestick_1_2.png-ae3e812f3c9b9aac164f66dcf7e6c73b.ctex::
 candlestick_1_3.png::CompressedTexture2D::6299163131493742238::1544181708::1767843554::1::::<><><>0<>0<>ed66b18598e795846df478021b313e7b<>res://.godot/imported/candlestick_1_3.png-fb738b1f77b3025cadc3d23055829442.ctex::
@@ -3081,7 +3082,7 @@ fire_column_medium_11.png::CompressedTexture2D::3071375475679386860::1767838556:
 fire_column_medium_12.png::CompressedTexture2D::4446465837240947695::1767838556::1767838556::1::::<><><>0<>0<>2ea9967874d4dfcf64798c56fe3c4674<>res://.godot/imported/fire_column_medium_12.png-864d978980b8856b19a5b27e3aafbc6b.ctex::
 fire_column_medium_13.png::CompressedTexture2D::2063315352651308441::1767838556::1767838556::1::::<><><>0<>0<>8e2d80b19665cd90ca05364be9333021<>res://.godot/imported/fire_column_medium_13.png-1d9a62d3cbaf1cf6438f39052325e7a7.ctex::
 fire_column_medium_14.png::CompressedTexture2D::4889202344325231106::1767838556::1767838556::1::::<><><>0<>0<>174109a192f37064f064c7e1d2761cac<>res://.godot/imported/fire_column_medium_14.png-44eb9cdf8031b39a29a9d36c6b5a2b09.ctex::
-::res://Obsts/::1767843494
+::res://Obsts/::1767843855
 enemy.gd::GDScript::6236269186966528318::1767838556::0::1::::<>RigidBody2D<><>0<>0<><>::
 Enemy.tscn::PackedScene::2565436288211538536::1767838556::0::1::::<><><>0<>0<><>::uid://cu35pbni81wcc::::res://Obsts/enemy.gd<>uid://ed354n5tbrk0::::res://images/craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock4_5_no_shadow.png
 FlyingEnemy.tscn::PackedScene::2043572864759963932::1767838556::0::1::::<><><>0<>0<><>::uid://cu35pbni81wcc::::res://Obsts/enemy.gd<>uid://c3adre2ua86l5::::res://images/fireballs/fire_ball_blue_side_small/imgs/img_4.png
@@ -3095,7 +3096,7 @@ projectileDown.tscn::PackedScene::2157136517245761885::1767664102::0::1::::<><><
 projectileLeft.tscn::PackedScene::2490004007789228990::1767753213::0::1::::<><><>0<>0<><>::uid://bre61g3vuioxg::::res://Obsts/projectile.gd<>uid://bsuaj6sxy4lk1::::res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png
 projectileRight.tscn::PackedScene::705046954446974942::1767663637::0::1::::<><><>0<>0<><>::uid://bre61g3vuioxg::::res://Obsts/projectile.gd<>uid://bsuaj6sxy4lk1::::res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png
 projectileUp.tscn::PackedScene::960909594071516562::1767664090::0::1::::<><><>0<>0<><>::uid://bre61g3vuioxg::::res://Obsts/projectile.gd<>uid://bsuaj6sxy4lk1::::res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png
-StairBlock.tscn::PackedScene::6449146106974679322::1767843494::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg
+StairBlock.tscn::PackedScene::6449146106974679322::1767843855::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg<>uid://cw22f1i4t0s2f::::res://images/vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg
 StairBlockWHeal.tscn::PackedScene::449448852721765575::1767839545::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg<>uid://xdns2ckj6fji::::res://Obsts/HealingPlatform.tscn
 ::res://TestAssets/::1767497577
 playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png::CompressedTexture2D::1037038894429592024::1767497577::1767497577::1::::<><><>0<>0<>42460d49c0360708b248efcf2c956ddf<>res://.godot/imported/playful-and-quirky-stick-figure-design-with-creative-character-expression-free-png-removebg-preview.png-8c37fd9103f120273d9731d819c04d50.ctex::
