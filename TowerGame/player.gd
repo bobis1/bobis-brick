@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -950.0
+const JUMP_VELOCITY = -1200.0
 
 var leftProjectileScene: PackedScene = preload("res://Obsts/projectileLeft.tscn")
 var rightProjectileScene: PackedScene = preload("res://Obsts/projectileRight.tscn")

@@ -14,6 +14,7 @@ gravity_scale = 4.0
 contact_monitor = true
 max_contacts_reported = 50
 script = ExtResource("1_ynxbr")
+health = 20.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 0)

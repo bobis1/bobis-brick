@@ -1,0 +1,141 @@
+[gd_scene load_steps=5 format=3 uid="uid://moaqvw86o4jr"]
+
+[ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="1_7ujqv"]
+[ext_resource type="PackedScene" uid="uid://b1dk8ulu567dt" path="res://Obsts/LavaPlatform.tscn" id="2_05q7p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yp0sw"]
+size = Vector2(1777, 121)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fmgqs"]
+size = Vector2(320, 121)
+
+[node name="StairBlock" type="Node2D"]
+
+[node name="Floor2" type="RigidBody2D" parent="."]
+position = Vector2(-705, -722)
+rotation = 1.5707964
+can_sleep = false
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2"]
+position = Vector2(76.5, -136.5)
+shape = SubResource("RectangleShape2D_yp0sw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor2"]
+position = Vector2(74, -125)
+scale = Vector2(13.96, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="Floor3" type="RigidBody2D" parent="."]
+position = Vector2(985, -731)
+rotation = 1.5707964
+can_sleep = false
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3"]
+position = Vector2(76.5, -136.5)
+shape = SubResource("RectangleShape2D_yp0sw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor3"]
+position = Vector2(74, -125)
+scale = Vector2(13.96, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(568, -128)
+rotation = 0.6806784
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(88.42383, 109.33905)
+rotation = -0.67728055
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_fmgqs")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+position = Vector2(88.42382, 109.839035)
+rotation = -0.67710805
+scale = Vector2(5.659994, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="RigidBody2D2" type="RigidBody2D" parent="."]
+position = Vector2(344.00006, -368.00003)
+rotation = 0.6806784
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D2"]
+position = Vector2(88.42383, 109.33905)
+rotation = -0.67728055
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_fmgqs")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D2"]
+position = Vector2(88.42382, 109.839035)
+rotation = -0.67710805
+scale = Vector2(5.659994, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="RigidBody2D3" type="RigidBody2D" parent="."]
+position = Vector2(71, -608)
+rotation = 0.6806784
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D3"]
+position = Vector2(88.42383, 109.33905)
+rotation = -0.67728055
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_fmgqs")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D3"]
+position = Vector2(88.42382, 109.839035)
+rotation = -0.67710805
+scale = Vector2(5.659994, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="RigidBody2D4" type="RigidBody2D" parent="."]
+position = Vector2(696.00006, -1480)
+rotation = 0.6806784
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D4"]
+position = Vector2(88.42383, 109.33905)
+rotation = -0.67728055
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_fmgqs")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D4"]
+position = Vector2(88.42382, 109.839035)
+rotation = -0.67710805
+scale = Vector2(5.659994, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="RigidBody2D7" type="RigidBody2D" parent="."]
+position = Vector2(47.99996, -1200)
+rotation = 0.6806784
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D7"]
+position = Vector2(88.42383, 109.33905)
+rotation = -0.67728055
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_fmgqs")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D7"]
+position = Vector2(88.42382, 109.839035)
+rotation = -0.67710805
+scale = Vector2(5.659994, 1)
+texture = ExtResource("1_7ujqv")
+
+[node name="LeftEnemySpawn" type="Marker2D" parent="." groups=["EnemySpawn"]]
+position = Vector2(-452, -71)
+
+[node name="RightEnemySpawn" type="Marker2D" parent="." groups=["EnemySpawn"]]
+position = Vector2(1024, -64)
+
+[node name="LavaPlatform" parent="." instance=ExtResource("2_05q7p")]
+position = Vector2(144, -744)

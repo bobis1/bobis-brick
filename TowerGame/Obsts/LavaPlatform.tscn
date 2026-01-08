@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://b1dk8ulu567dt"]
+
+[ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="1_c6421"]
+[ext_resource type="Texture2D" uid="uid://b1vmogmo6pq7v" path="res://images/pack_effect_fire_column/fire_column_medium/fire_column_medium_4.png" id="2_c6421"]
+[ext_resource type="Script" uid="uid://bpkbgrq0r52jl" path="res://Obsts/Lava_Platform.gd" id="3_c6421"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wvwf0"]
+size = Vector2(360, 554)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o3551"]
+size = Vector2(320, 121)
+
+[node name="LavaPlatform" type="RigidBody2D"]
+freeze = true
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(474, -251)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("3_c6421")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-36, 193)
+shape = SubResource("RectangleShape2D_wvwf0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(454, 15)
+scale = Vector2(2.2639976, 1)
+shape = SubResource("RectangleShape2D_o3551")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(463.85715, 15.193008)
+scale = Vector2(5.6599936, 0.99999994)
+texture = ExtResource("1_c6421")
+
+[node name="HfMid1000" type="Sprite2D" parent="."]
+position = Vector2(463.99997, -251.00002)
+scale = Vector2(5.6599936, 5.6819997)
+texture = ExtResource("2_c6421")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

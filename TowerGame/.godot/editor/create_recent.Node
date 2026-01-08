@@ -1,13 +1,13 @@
+CollisionShape2D
+Area2D
+RigidBody2D
 ProgressBar
 TextureProgressBar
 CanvasLayer
 Sprite2D
 Marker2D
 Node
-CollisionShape2D
-RigidBody2D
 OpenXRBindingModifierEditor
-Area2D
 Camera2D
 TileMapLayer
 TileMap

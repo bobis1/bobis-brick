@@ -10,7 +10,6 @@ var targetPose: Vector2
 func _ready() -> void:
 	if target:
 		targetPose = target.global_position
-	health = 10
 	target = $"/root/Node2D/Player/PlayerMarker"
 	
 
@@ -25,6 +24,7 @@ func _physics_process(delta: float) -> void:
 	constant_force = direction * linear_force * distance
 	if health <= 0:
 		Globals.EnemiesKilled += 1
+		print("EnemiesKilled: ", Globals.EnemiesKilled)
 		queue_free()
 		
 
@@ -34,11 +34,10 @@ func _on_body_entered(body: Node2D):
 		body.queue_free()
 	if(body.is_in_group("Player")):
 		Globals.Health -= 10
-		print("Player Health" ,Globals.Health)
 		if Globals.isLeft == Vector2.RIGHT:
-			linear_velocity.x = 1400
+			linear_velocity.x = 1600
 		elif Globals.isLeft == Vector2.LEFT:
-			linear_velocity.x = -1400
+			linear_velocity.x = -1600
 	if(body.is_in_group("Enemy") && !is_in_group("Flying")):
 		linear_velocity.y = -100
 		
