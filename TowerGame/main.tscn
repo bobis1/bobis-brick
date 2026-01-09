@@ -28,7 +28,7 @@ size = Vector2(6326, 121)
 position = Vector2(311, -168)
 script = ExtResource("2_0xm2m")
 maxClipSize = 3
-ammoCounters = [NodePath("../CanvasLayer/Sprite2D"), NodePath("../CanvasLayer/Sprite2D2"), NodePath("../CanvasLayer/Sprite2D3")]
+ammoCounters = [NodePath("../CanvasLayer/ProgressBar/Sprite2D"), NodePath("../CanvasLayer/ProgressBar/Sprite2D2"), NodePath("../CanvasLayer/ProgressBar/Sprite2D3")]
 log = NodePath("../Base/Top")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" groups=["Player"]]
@@ -48,6 +48,7 @@ position = Vector2(-212, -2)
 [node name="EnemySpawner" type="Node" parent="."]
 script = ExtResource("4_1bvp3")
 enemyScene = Array[PackedScene]([ExtResource("3_h2yge"), ExtResource("5_272bh"), ExtResource("3_h2yge"), ExtResource("3_h2yge")])
+baseEnemyWaveAmount = 5
 
 [node name="PlatformSpawner" type="Node" parent="." node_paths=PackedStringArray("Top")]
 script = ExtResource("5_7mycd")
@@ -103,26 +104,26 @@ max_value = 1000.0
 value = 1000.0
 script = ExtResource("3_5vw27")
 
-[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(925, 182.25)
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(-18.800003, 36.449997)
 rotation = 1.5707964
-scale = Vector2(0.25, 2)
+scale = Vector2(0.049999997, 0.39999998)
 texture = ExtResource("12_dg77c")
 region_enabled = true
 region_rect = Rect2(141.5, 0, 434.5, 72)
 
-[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(1027, 182.25)
+[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(1.6000061, 36.449997)
 rotation = 1.5707964
-scale = Vector2(0.25, 2)
+scale = Vector2(0.049999997, 0.39999998)
 texture = ExtResource("12_dg77c")
 region_enabled = true
 region_rect = Rect2(141.5, 0, 434.5, 72)
 
-[node name="Sprite2D3" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(1127, 182.25)
+[node name="Sprite2D3" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(21.600006, 36.449997)
 rotation = 1.5707964
-scale = Vector2(0.25, 2)
+scale = Vector2(0.049999997, 0.39999998)
 texture = ExtResource("12_dg77c")
 region_enabled = true
 region_rect = Rect2(141.5, 0, 434.5, 72)

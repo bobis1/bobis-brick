@@ -26,13 +26,10 @@ func _physics_process(delta: float) -> void:
 	match currentClip:
 				0:
 					ammoCounters[0].visible = false
-					print("Ammo Counter 0")
 				1:
 					ammoCounters[1].visible = false
-					print("Ammo Counter 1")
 				2:
 					ammoCounters[2].visible = false
-					print("Ammo Counter 2")
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -56,7 +53,6 @@ func _physics_process(delta: float) -> void:
 		for i in range(ammoCounters.size()):
 			ammoCounters[index].visible = true
 			index += 1
-		print("Reloaded")
 	
 	if Globals.Health <= 0:
 		get_tree().change_scene_to_file("res://main.tscn")

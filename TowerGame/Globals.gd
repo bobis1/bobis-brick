@@ -6,3 +6,4 @@ var Health: float
 var isLeft = Vector2.LEFT
 var EnemiesKilled: int
 var PlatformAmount: int
+var enemiesKilledInWave: int

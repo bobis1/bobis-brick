@@ -24,6 +24,7 @@ func _physics_process(delta: float) -> void:
 	constant_force = direction * linear_force * distance
 	if health <= 0:
 		Globals.EnemiesKilled += 1
+		Globals.enemiesKilledInWave += 1
 		print("EnemiesKilled: ", Globals.EnemiesKilled)
 		queue_free()
 		
