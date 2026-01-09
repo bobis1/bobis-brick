@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c1jh4c3s73r34"]
+[gd_scene load_steps=16 format=3 uid="uid://c1jh4c3s73r34"]
 
 [ext_resource type="Script" uid="uid://bywix6v5uwf6q" path="res://player.gd" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="3_1bvp3"]
@@ -10,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://cx5aq2ichi2uw" path="res://Obsts/StairBlock.tscn" id="5_lquwl"]
 [ext_resource type="PackedScene" uid="uid://gnymeveqdfgp" path="res://Obsts/StairBlockWHeal.tscn" id="8_kek77"]
 [ext_resource type="PackedScene" uid="uid://moaqvw86o4jr" path="res://Obsts/LavaStairs.tscn" id="9_4c57u"]
+[ext_resource type="Texture2D" uid="uid://cbc1546q3652l" path="res://images/README.png" id="10_efxa6"]
+[ext_resource type="Texture2D" uid="uid://bsuaj6sxy4lk1" path="res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png" id="12_dg77c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
 size = Vector2(124, 130)
@@ -22,9 +24,12 @@ size = Vector2(6326, 121)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Player" type="CharacterBody2D" parent="." groups=["Player"]]
+[node name="Player" type="CharacterBody2D" parent="." node_paths=PackedStringArray("ammoCounters", "log") groups=["Player"]]
 position = Vector2(311, -168)
 script = ExtResource("2_0xm2m")
+maxClipSize = 3
+ammoCounters = [NodePath("../CanvasLayer/Sprite2D"), NodePath("../CanvasLayer/Sprite2D2"), NodePath("../CanvasLayer/Sprite2D3")]
+log = NodePath("../Base/Top")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" groups=["Player"]]
 texture = ExtResource("3_1bvp3")
@@ -60,14 +65,14 @@ freeze = true
 position = Vector2(76.5, -136.5)
 shape = SubResource("RectangleShape2D_lquwl")
 
-[node name="Sprite2D" type="Sprite2D" parent="Base/Floor"]
-position = Vector2(74, -125)
-scale = Vector2(13.96, 1)
-texture = ExtResource("3_1bvp3")
+[node name="Readme" type="Sprite2D" parent="Base/Floor"]
+position = Vector2(93.00009, 48)
+scale = Vector2(20, 12)
+texture = ExtResource("10_efxa6")
 
 [node name="Top" type="RigidBody2D" parent="Base"]
 process_mode = 3
-position = Vector2(202, -1544)
+position = Vector2(133, -1726)
 mass = 9000.0
 gravity_scale = 100.0
 
@@ -75,10 +80,10 @@ gravity_scale = 100.0
 position = Vector2(592, -136.5)
 shape = SubResource("RectangleShape2D_272bh")
 
-[node name="Sprite2D" type="Sprite2D" parent="Base/Top"]
-position = Vector2(74, -125)
-scale = Vector2(13.96, 1)
-texture = ExtResource("3_1bvp3")
+[node name="Readme2" type="Sprite2D" parent="Base/Top"]
+position = Vector2(80, -25)
+scale = Vector2(20, 12)
+texture = ExtResource("10_efxa6")
 
 [node name="StairBlock" parent="." instance=ExtResource("5_lquwl")]
 position = Vector2(15, -111)
@@ -97,3 +102,27 @@ scale = Vector2(5, 5)
 max_value = 1000.0
 value = 1000.0
 script = ExtResource("3_5vw27")
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(925, 182.25)
+rotation = 1.5707964
+scale = Vector2(0.25, 2)
+texture = ExtResource("12_dg77c")
+region_enabled = true
+region_rect = Rect2(141.5, 0, 434.5, 72)
+
+[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(1027, 182.25)
+rotation = 1.5707964
+scale = Vector2(0.25, 2)
+texture = ExtResource("12_dg77c")
+region_enabled = true
+region_rect = Rect2(141.5, 0, 434.5, 72)
+
+[node name="Sprite2D3" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(1127, 182.25)
+rotation = 1.5707964
+scale = Vector2(0.25, 2)
+texture = ExtResource("12_dg77c")
+region_enabled = true
+region_rect = Rect2(141.5, 0, 434.5, 72)

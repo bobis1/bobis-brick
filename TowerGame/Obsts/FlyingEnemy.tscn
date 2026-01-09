@@ -14,7 +14,7 @@ gravity_scale = 0.75
 contact_monitor = true
 max_contacts_reported = 50
 script = ExtResource("1_auibh")
-linear_force = 0.5
+linear_force = 3.0
 health = 10.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
