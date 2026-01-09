@@ -1,3 +1,4 @@
+Node
 Timer
 TextureRect
 Sprite2D
@@ -8,8 +9,6 @@ ProgressBar
 TextureProgressBar
 CanvasLayer
 Marker2D
-Node
 OpenXRBindingModifierEditor
 Camera2D
 TileMapLayer
-TileMap
