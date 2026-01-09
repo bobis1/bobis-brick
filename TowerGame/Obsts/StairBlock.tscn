@@ -8,7 +8,7 @@
 size = Vector2(1777, 121)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fmgqs"]
-size = Vector2(320, 121)
+size = Vector2(236.76009, 121)
 
 [node name="StairBlock" type="Node2D"]
 
@@ -90,9 +90,9 @@ rotation = 0.7853982
 freeze = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
-position = Vector2(88.42383, 109.33905)
-rotation = -0.67728055
-scale = Vector2(2.2639976, 1)
+position = Vector2(87.20952, 116.49249)
+rotation = -0.67728066
+scale = Vector2(2.2639978, 1)
 shape = SubResource("RectangleShape2D_fmgqs")
 one_way_collision = true
 
