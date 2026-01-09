@@ -24,4 +24,6 @@ Today, there was not alot of work that was done :(. However I added a new flying
 ![image](JournalAsset/1.6.2026.png)
 
 1.7.2026
-Today, I mostly added more types of stair platforms being 
+Today, I mostly added more types of stair platforms being a platform with healing and a platform with a fire pillar that damages you.
+![image](JournalAsset/1.7.2026.png)
+![image](JournalAsset/1.7.2026(2).png)
