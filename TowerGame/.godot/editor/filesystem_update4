@@ -1,1 +1,14 @@
 res://Obsts/StairBlock.tscn
+res://Obsts/StairBlockWHeal.tscn
+res://Obsts/LavaStairs.tscn
+res://main.tscn
+res://platform_spawner.gd
+res://enemy_spawner.gd
+res://Globals.gd
+res://player.gd
+res://Obsts/enemy.gd
+res://Obsts/LavaPlatform.tscn
+res://Obsts/Enemy.tscn
+res://Obsts/BurstSpell.tscn
+res://Obsts/BurstSpeel.gd
+res://Obsts/projectileLeft.tscn

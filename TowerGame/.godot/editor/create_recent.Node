@@ -1,14 +1,14 @@
+Sprite2D
+CollisionShape2D
+RigidBody2D
+AudioStreamPlayer2D
+Label      - Matches the "text" keyword.
 Node
 Timer
 TextureRect
-Sprite2D
-CollisionShape2D
 Area2D
-RigidBody2D
 ProgressBar
 TextureProgressBar
 CanvasLayer
 Marker2D
 OpenXRBindingModifierEditor
-Camera2D
-TileMapLayer

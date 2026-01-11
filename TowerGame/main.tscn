@@ -1,38 +1,48 @@
-[gd_scene load_steps=16 format=3 uid="uid://c1jh4c3s73r34"]
+[gd_scene load_steps=19 format=3 uid="uid://c1jh4c3s73r34"]
 
 [ext_resource type="Script" uid="uid://bywix6v5uwf6q" path="res://player.gd" id="2_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="3_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://c3hc0miqwg5vt" path="res://images/ZiiLjZ.png" id="2_ycdy4"]
 [ext_resource type="Script" uid="uid://byuyrw6db0arx" path="res://health_bar.gd" id="3_5vw27"]
 [ext_resource type="PackedScene" uid="uid://bcsymje6nuo77" path="res://Obsts/Enemy.tscn" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bii1oqm6gqm42" path="res://images/pixil-frame-0 (1).png" id="3_w48qg"]
 [ext_resource type="Script" uid="uid://0jck0f6mx15h" path="res://enemy_spawner.gd" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://c4u80btoh01vh" path="res://platform_spawner.gd" id="5_7mycd"]
 [ext_resource type="PackedScene" uid="uid://4d6l1tlu6hua" path="res://Obsts/FlyingEnemy.tscn" id="5_272bh"]
 [ext_resource type="PackedScene" uid="uid://cx5aq2ichi2uw" path="res://Obsts/StairBlock.tscn" id="5_lquwl"]
+[ext_resource type="AudioStream" uid="uid://rpvjuthj7afe" path="res://single-church-bell-2-352062.mp3" id="6_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://gnymeveqdfgp" path="res://Obsts/StairBlockWHeal.tscn" id="8_kek77"]
 [ext_resource type="PackedScene" uid="uid://moaqvw86o4jr" path="res://Obsts/LavaStairs.tscn" id="9_4c57u"]
 [ext_resource type="Texture2D" uid="uid://cbc1546q3652l" path="res://images/README.png" id="10_efxa6"]
-[ext_resource type="Texture2D" uid="uid://bsuaj6sxy4lk1" path="res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png" id="12_dg77c"]
+[ext_resource type="Texture2D" uid="uid://i1bqrjtaumq2" path="res://images/pixil-frame-0 (3).png" id="13_vivmo"]
+[ext_resource type="Texture2D" uid="uid://cpwmjxmqteron" path="res://images/Jump.png" id="15_vivmo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
 size = Vector2(124, 130)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
-size = Vector2(1777, 121)
+size = Vector2(5650, 1399)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_272bh"]
 size = Vector2(6326, 121)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Player" type="CharacterBody2D" parent="." node_paths=PackedStringArray("ammoCounters", "log") groups=["Player"]]
-position = Vector2(311, -168)
+[node name="Player" type="CharacterBody2D" parent="." node_paths=PackedStringArray("ammoCounters", "burstAmmoCounter", "superJumpCounter", "log", "PlayerSprite") groups=["Player"]]
+position = Vector2(321, -288)
 script = ExtResource("2_0xm2m")
 maxClipSize = 4
-ammoCounters = [NodePath("../CanvasLayer/ProgressBar/Sprite2D"), NodePath("../CanvasLayer/ProgressBar/Sprite2D2"), NodePath("../CanvasLayer/ProgressBar/Sprite2D3"), NodePath("../CanvasLayer/ProgressBar/Sprite2D4")]
+maxBurstClipSize = 1
+maxSuperJump = 1
+superJumpFactor = 2.0
+ammoCounters = [NodePath("../CanvasLayer/ProgressBar/sp"), NodePath("../CanvasLayer/ProgressBar/sp2"), NodePath("../CanvasLayer/ProgressBar/sp3"), NodePath("../CanvasLayer/ProgressBar/sp4")]
+burstAmmoCounter = NodePath("../CanvasLayer/ProgressBar/PixilFrame0(1)")
+superJumpCounter = NodePath("../CanvasLayer/ProgressBar/Jump")
 log = NodePath("../Base/Top")
+PlayerSprite = NodePath("Sprite2D")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" groups=["Player"]]
-texture = ExtResource("3_1bvp3")
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_ycdy4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" groups=["Player"]]
 shape = SubResource("RectangleShape2D_h2yge")
@@ -42,13 +52,16 @@ shape = SubResource("RectangleShape2D_h2yge")
 [node name="PlayerMarker" type="Marker2D" parent="Player" groups=["Player", "PlayerMarker"]]
 position = Vector2(1, 0)
 
-[node name="Enemy" parent="." instance=ExtResource("3_h2yge")]
-position = Vector2(-212, -2)
-
-[node name="EnemySpawner" type="Node" parent="."]
+[node name="EnemySpawner" type="Node" parent="." node_paths=PackedStringArray("WaveNum", "Audio")]
 script = ExtResource("4_1bvp3")
 enemyScene = Array[PackedScene]([ExtResource("3_h2yge"), ExtResource("5_272bh"), ExtResource("3_h2yge"), ExtResource("3_h2yge")])
 baseEnemyWaveAmount = 5
+WaveNum = NodePath("../CanvasLayer/WaveNum")
+Audio = NodePath("AudioStreamPlayer2D")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="EnemySpawner"]
+stream = ExtResource("6_ycdy4")
+volume_db = 24.0
 
 [node name="PlatformSpawner" type="Node" parent="." node_paths=PackedStringArray("Top")]
 script = ExtResource("5_7mycd")
@@ -63,7 +76,7 @@ can_sleep = false
 freeze = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Base/Floor"]
-position = Vector2(76.5, -136.5)
+position = Vector2(294, 502.5)
 shape = SubResource("RectangleShape2D_lquwl")
 
 [node name="Readme" type="Sprite2D" parent="Base/Floor"]
@@ -71,9 +84,23 @@ position = Vector2(93.00009, 48)
 scale = Vector2(20, 12)
 texture = ExtResource("10_efxa6")
 
+[node name="Readme2" type="Sprite2D" parent="Base/Floor"]
+z_index = -1
+position = Vector2(-811, 701.99994)
+rotation = 1.5707964
+scale = Vector2(20, 12)
+texture = ExtResource("10_efxa6")
+
+[node name="Readme3" type="Sprite2D" parent="Base/Floor"]
+z_index = -1
+position = Vector2(735, 701.99994)
+rotation = 1.5707964
+scale = Vector2(20, 12)
+texture = ExtResource("10_efxa6")
+
 [node name="Top" type="RigidBody2D" parent="Base"]
 process_mode = 3
-position = Vector2(133, -1726)
+position = Vector2(180, -1635)
 mass = 9000.0
 gravity_scale = 100.0
 
@@ -104,34 +131,59 @@ max_value = 1000.0
 value = 1000.0
 script = ExtResource("3_5vw27")
 
-[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
-position = Vector2(-18.800003, 36.449997)
-rotation = 1.5707964
-scale = Vector2(0.049999997, 0.39999998)
-texture = ExtResource("12_dg77c")
-region_enabled = true
-region_rect = Rect2(141.5, 0, 434.5, 72)
+[node name="PixilFrame0(1)" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(5.800003, 67.799995)
+scale = Vector2(0.024999999, 0.024999999)
+texture = ExtResource("3_w48qg")
 
-[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
-position = Vector2(1.6000061, 36.449997)
-rotation = 1.5707964
-scale = Vector2(0.049999997, 0.39999998)
-texture = ExtResource("12_dg77c")
-region_enabled = true
-region_rect = Rect2(141.5, 0, 434.5, 72)
+[node name="sp" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(-38.789574, 30.75366)
+rotation = 1.5601269
+scale = Vector2(0.025, 0.065)
+texture = ExtResource("13_vivmo")
 
-[node name="Sprite2D3" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
-position = Vector2(21.600006, 36.449997)
-rotation = 1.5707964
-scale = Vector2(0.049999997, 0.39999998)
-texture = ExtResource("12_dg77c")
-region_enabled = true
-region_rect = Rect2(141.5, 0, 434.5, 72)
+[node name="sp2" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(-18.389574, 30.55366)
+rotation = 1.5601269
+scale = Vector2(0.025, 0.065)
+texture = ExtResource("13_vivmo")
 
-[node name="Sprite2D4" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
-position = Vector2(37.800003, 36.400005)
-rotation = 1.5707964
-scale = Vector2(0.049999997, 0.39999998)
-texture = ExtResource("12_dg77c")
-region_enabled = true
-region_rect = Rect2(141.5, 0, 434.5, 72)
+[node name="sp3" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(1.810426, 30.353659)
+rotation = 1.5601269
+scale = Vector2(0.025, 0.065)
+texture = ExtResource("13_vivmo")
+
+[node name="sp4" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(18.010427, 30.153662)
+rotation = 1.5601269
+scale = Vector2(0.025, 0.065)
+texture = ExtResource("13_vivmo")
+
+[node name="Jump" type="Sprite2D" parent="CanvasLayer/ProgressBar"]
+position = Vector2(-27.199999, 69.8)
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("15_vivmo")
+
+[node name="Wave_" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -258.0
+offset_right = -207.0
+offset_bottom = 23.0
+grow_horizontal = 2
+scale = Vector2(5, 5)
+text = "Wave: "
+
+[node name="WaveNum" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.999939
+offset_top = 7.0000005
+offset_right = 26.000061
+offset_bottom = 30.0
+grow_horizontal = 2
+scale = Vector2(5, 5)
+text = "0"

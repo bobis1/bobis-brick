@@ -29,7 +29,7 @@ shape = SubResource("RectangleShape2D_o3551")
 one_way_collision = true
 
 [node name="HfMid1000" type="Sprite2D" parent="."]
-position = Vector2(463.99997, -251.00002)
+position = Vector2(460.99997, -210.99998)
 scale = Vector2(5.6599936, 5.6819997)
 texture = ExtResource("2_c6421")
 

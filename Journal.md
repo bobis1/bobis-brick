@@ -27,3 +27,11 @@ Today, there was not alot of work that was done :(. However I added a new flying
 Today, I mostly added more types of stair platforms being a platform with healing and a platform with a fire pillar that damages you.
 ![image](JournalAsset/1.7.2026.png)
 ![image](JournalAsset/1.7.2026(2).png)
+
+1.8.2026
+Today, I added more QOL like replacing the placeholder assets. I could not get much done today.
+![image](JournalAsset/1.8.2026.png)
+
+1.9.2026
+I now have a wave system that spawns enemies in based on the amount of platforms there are. I also added a wave counter.
+![image](JournalAsset/1.9.2026.png)

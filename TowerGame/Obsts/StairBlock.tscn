@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cx5aq2ichi2uw"]
+[gd_scene load_steps=8 format=3 uid="uid://cx5aq2ichi2uw"]
 
 [ext_resource type="Texture2D" uid="uid://ckcndmxo1ttrk" path="res://icon.svg" id="1_fmgqs"]
 [ext_resource type="Texture2D" uid="uid://cw22f1i4t0s2f" path="res://images/vector-brick-wall-pixel-blocks-background-pattern_384401-4647.jpg" id="2_yp0sw"]
 [ext_resource type="Texture2D" uid="uid://cbc1546q3652l" path="res://images/README.png" id="3_eralg"]
+[ext_resource type="Texture2D" uid="uid://7jcl2i70j0yd" path="res://images/Dungeon_brick_wall_grey.png.png" id="4_24qkb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yp0sw"]
 size = Vector2(1777, 121)
@@ -160,96 +161,14 @@ texture = ExtResource("2_yp0sw")
 region_enabled = true
 region_rect = Rect2(394.83246, 0, 345.16754, 513.356)
 
-[node name="Backgrounds" type="Node" parent="."]
+[node name="DungeonBrickWallGrey_png" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(241, -999)
+texture = ExtResource("4_24qkb")
 
-[node name="Background" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
+[node name="DungeonBrickWallGrey_png2" type="Sprite2D" parent="."]
 z_index = -2
-position = Vector2(884, -1170)
-rotation = -3.1415925
-scale = Vector2(1.1, 1)
-texture = ExtResource("2_yp0sw")
+position = Vector2(241, -193)
+texture = ExtResource("4_24qkb")
 region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background2" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(537, -1177)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background3" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(194, -1174)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background4" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(-156, -1174)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background5" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(-506, -1174)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background6" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(911.50006, -426)
-rotation = -3.1415925
-scale = Vector2(1.1, 1)
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background7" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(564.50006, -433)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background8" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(221.50006, -430)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background9" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(-128.49994, -430)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
-
-[node name="Background10" type="Sprite2D" parent="Backgrounds"]
-modulate = Color(0.37254903, 0.37254903, 0.37254903, 1)
-z_index = -2
-position = Vector2(-478.49994, -430)
-rotation = -3.1415925
-texture = ExtResource("2_yp0sw")
-region_enabled = true
-region_rect = Rect2(394.83246, 0, 345.16754, 740)
+region_rect = Rect2(0, 0, 1920, 833.3571)

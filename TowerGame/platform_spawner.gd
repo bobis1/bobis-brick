@@ -20,7 +20,7 @@ func _process(delta: float) -> void:
 		var nextPlatform = Platforms[rng.randi_range(0, Platforms.size()-1)].instantiate()
 		add_child(nextPlatform)
 		Target_Pose.y = -1712.0 * (Globals.PlatformAmount-1)
-		Top.global_position.y = -3236.0 * (Globals.PlatformAmount-1)
+		Top.global_position.y = Target_Pose.y - 1535.0
 		nextPlatform.global_position = Target_Pose
 		threshold += 10
 		print("Threshold", threshold)

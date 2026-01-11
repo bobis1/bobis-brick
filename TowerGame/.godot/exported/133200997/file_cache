@@ -1,0 +1,16 @@
+res://addons/godot_super-wakatime/api_key_prompt.tscn::a6988a5ba43d5aa92a08f216c1db28db::1767497577::res://.godot/exported/133200997/export-cd8705cb5e2533bd79c64579ac674dae-api_key_prompt.scn
+res://addons/godot_super-wakatime/counter.tscn::7f13ad35960e259f6de719f9785ce249::1767497577::res://.godot/exported/133200997/export-4af6c9115c1c285af5925fa1ce6a526e-counter.scn
+res://Obsts/Enemy.tscn::949e6706aec60cb4bf1e0df89aba7eef::1767838556::res://.godot/exported/133200997/export-675ffe7577c326018f67e6ad958731d3-Enemy.scn
+res://Obsts/FlyingEnemy.tscn::f8f91204b0814e462cf1c8cf95568029::1767933376::res://.godot/exported/133200997/export-3ca7c97e897851721c1994f2c7be9eb9-FlyingEnemy.scn
+res://Obsts/HealingPlatform.tscn::2f83f0afef068a6c6299ac2e18eb9561::1767933376::res://.godot/exported/133200997/export-7c1ca2b639398e2ea9820ece7b28c297-HealingPlatform.scn
+res://Obsts/LavaPlatform.tscn::ea330e680f805c7bd01770235de99f50::1768058719::res://.godot/exported/133200997/export-5a4915a136bb08d0ec3d27ddbee5cbd9-LavaPlatform.scn
+res://Obsts/LavaStairs.tscn::98f4e1e9591b1fd555dfca5f87b91e2c::1768055774::res://.godot/exported/133200997/export-c73c11bd4f1db67a5119ba43a9431329-LavaStairs.scn
+res://Obsts/projectileDown.tscn::130ff849ff866fe94987e63bcef3a95f::1767664102::res://.godot/exported/133200997/export-0d5dc52800148e8c5204270b85c34963-projectileDown.scn
+res://Obsts/projectileLeft.tscn::1e0f689bb7ddd08cdd75a84ddf882566::1767753213::res://.godot/exported/133200997/export-9498c5eb95adcea4303da1a642fa246b-projectileLeft.scn
+res://Obsts/projectileRight.tscn::949f420f3d3ae0e46a540b6e489c10ea::1767663637::res://.godot/exported/133200997/export-fde7f529c60f9f94f206585fdfd19ae2-projectileRight.scn
+res://Obsts/projectileUp.tscn::22fa131a0d937d24e70a12139f05a30d::1767664090::res://.godot/exported/133200997/export-72cb3392e3a1ff37042e5777a6ef4595-projectileUp.scn
+res://Obsts/StairBlock.tscn::c5e7033b5078d721bfdb3afcf7c0fa18::1768055752::res://.godot/exported/133200997/export-1d63f93d401929513073cb3776dc52e6-StairBlock.scn
+res://Obsts/StairBlockWHeal.tscn::5f2286fc6138fca2b6a63515f97dc399::1768055762::res://.godot/exported/133200997/export-09fa9e939c4f1e7e8cac84bc20639f71-StairBlockWHeal.scn
+res://Base.tscn::0f4252968a0bf3c18f4ad6e9d3a493d7::1767661440::res://.godot/exported/133200997/export-58543b381f775489086c1224e270dc2e-Base.scn
+res://main.tscn::c2563b1640772edd4eba138303e90eb9::1768058624::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://Test.tscn::9745d3afc3dd40f349aa41f53b4acb10::1767497577::res://.godot/exported/133200997/export-424cafac01f45de89b53d7dc0c0edabc-Test.scn
