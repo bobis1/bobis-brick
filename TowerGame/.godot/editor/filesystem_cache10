@@ -1,16 +1,16 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1768086209
+::res://::1768174961
 Base.tscn::PackedScene::950002961111184600::1767661440::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg
 crosshair.gd::GDScript::4219456595128837843::1767664555::0::1::::<>Marker2D<><>0<>0<><>::
-enemy_spawner.gd::GDScript::1773441104895174403::1768075287::0::1::::<>Node<><>0<>0<><>::
-export_presets.cfg::TextFile::-1::1768058432::0::1::::<><><>0<>0<><>::
+enemy_spawner.gd::GDScript::1773441104895174403::1768088337::0::1::::<>Node<><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1768174950::0::1::::<><><>0<>0<><>::
 Globals.gd::GDScript::509349098148029968::1768078451::0::1::::<>Node<><>0<>0<><>::
 health_bar.gd::GDScript::4113729255951118033::1767756894::0::1::::<>ProgressBar<><>0<>0<><>::
 icon.svg::CompressedTexture2D::5479653904044637520::1767497577::1767497577::1::::<><><>0<>0<>ae546241fe8fac820f1589760b35514a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 isOnFloor.gd::GDScript::6325286757120976387::1767497577::0::1::::<>Area2D<><>0<>0<><>::
-main.tscn::PackedScene::6616807657897134777::1768085893::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://c3hc0miqwg5vt::::res://images/ZiiLjZ.png<>uid://byuyrw6db0arx::::res://health_bar.gd<>uid://bcsymje6nuo77::::res://Obsts/Enemy.tscn<>uid://bii1oqm6gqm42::::res://images/pixil-frame-0 (1).png<>uid://0jck0f6mx15h::::res://enemy_spawner.gd<>uid://c4u80btoh01vh::::res://platform_spawner.gd<>uid://4d6l1tlu6hua::::res://Obsts/FlyingEnemy.tscn<>uid://cx5aq2ichi2uw::::res://Obsts/StairBlock.tscn<>uid://rpvjuthj7afe::::res://single-church-bell-2-352062.mp3<>uid://gnymeveqdfgp::::res://Obsts/StairBlockWHeal.tscn<>uid://moaqvw86o4jr::::res://Obsts/LavaStairs.tscn<>uid://cbc1546q3652l::::res://images/README.png<>uid://bsuaj6sxy4lk1::::res://images/craftpix-net-440623-free-pixel-magic-sprite-effects-pack/1 Magic/3.png<>uid://i1bqrjtaumq2::::res://images/pixil-frame-0 (3).png
+main.tscn::PackedScene::6616807657897134777::1768144275::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://c3hc0miqwg5vt::::res://images/ZiiLjZ.png<>uid://byuyrw6db0arx::::res://health_bar.gd<>uid://bcsymje6nuo77::::res://Obsts/Enemy.tscn<>uid://bii1oqm6gqm42::::res://images/pixil-frame-0 (1).png<>uid://0jck0f6mx15h::::res://enemy_spawner.gd<>uid://c4u80btoh01vh::::res://platform_spawner.gd<>uid://4d6l1tlu6hua::::res://Obsts/FlyingEnemy.tscn<>uid://cx5aq2ichi2uw::::res://Obsts/StairBlock.tscn<>uid://rpvjuthj7afe::::res://single-church-bell-2-352062.mp3<>uid://gnymeveqdfgp::::res://Obsts/StairBlockWHeal.tscn<>uid://moaqvw86o4jr::::res://Obsts/LavaStairs.tscn<>uid://cbc1546q3652l::::res://images/README.png<>uid://i1bqrjtaumq2::::res://images/pixil-frame-0 (3).png<>uid://cpwmjxmqteron::::res://images/Jump.png
 platform_spawner.gd::GDScript::6851653776100350193::1768022067::0::1::::<>Node<><>0<>0<><>::
-player.gd::GDScript::4116897712852545842::1768078727::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::4116897712852545842::1768088020::0::1::::<>CharacterBody2D<><>0<>0<><>::
 single-church-bell-2-352062.mp3::AudioStreamMP3::1225468217300306654::1768057099::1768057100::1::::<><><>0<>0<>183a300f1697d334f9232286d8d7540b<>res://.godot/imported/single-church-bell-2-352062.mp3-987f33e901d58c52fd2e7baafd85d67e.mp3str::
 Test.tscn::PackedScene::8099162704508995467::1767497577::0::1::::<><><>0<>0<><>::uid://ocqr4kaowgws::::res://icon.svg
 ::res://addons/::1767497577
@@ -22,6 +22,18 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1767497577::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1767497577::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1767497577::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1767497577::0::1::::<>RefCounted<><>0<>0<><>::
+::res://buidl/::1768174909
+TowerGame.apple-touch-icon.png::CompressedTexture2D::818585051356220849::1768174725::1768174909::1::::<><><>0<>0<>534ab61ebc0815be49bce0a9a16a9aa2<>res://.godot/imported/TowerGame.apple-touch-icon.png-d056e8fd242986f056881f62128730a9.ctex::
+TowerGame.icon.png::CompressedTexture2D::4561361636391231304::1768174725::1768174909::1::::<><><>0<>0<>f6ac1e45f82db30fb263e902d05fe865<>res://.godot/imported/TowerGame.icon.png-6bb6f087b46741a61903e5b705a3bca7.ctex::
+TowerGame.png::CompressedTexture2D::2308660696888035778::1768174725::1768174909::1::::<><><>0<>0<>d860a91595ee5805b2e54cb68d4d0d49<>res://.godot/imported/TowerGame.png-adc84240d430061f9b27f105362ddaf8.ctex::
+::res://build/::1768174949
+index.144x144.png::CompressedTexture2D::2268827625554275234::1768174949::1768179877::1::::<><><>0<>0<>db1325b8e13ab2e0e1e7c87971d8893e<>res://.godot/imported/index.144x144.png-b4ff484bfeb8f78187fc8be1f276811e.ctex::
+index.180x180.png::CompressedTexture2D::4482792388920539572::1768174949::1768179877::1::::<><><>0<>0<>61180a18785a9c24695c881fcfe528e4<>res://.godot/imported/index.180x180.png-cdc7e946c43bea974635fdb5c0a2fc2b.ctex::
+index.512x512.png::CompressedTexture2D::6942048420000550951::1768174949::1768179877::1::::<><><>0<>0<>4c1f0aa861bea15ade94a26c36bdec99<>res://.godot/imported/index.512x512.png-5917edb8a203d3ae902888b0aabbeb30.ctex::
+index.apple-touch-icon.png::CompressedTexture2D::8711961129610861352::1768174949::1768179877::1::::<><><>0<>0<>afce56f882e23732222cd677db36a925<>res://.godot/imported/index.apple-touch-icon.png-dcd2c094bfa3f769157f6f2ba930cc56.ctex::
+index.icon.png::CompressedTexture2D::7541900439773610275::1768174949::1768179877::1::::<><><>0<>0<>2567a68bfde2266295abf1cd15b74d40<>res://.godot/imported/index.icon.png-96098a584bb713a61c1e8aa1df56a1bb.ctex::
+index.manifest.json::JSON::-1::1768174949::0::1::::<><><>0<>0<><>::
+index.png::CompressedTexture2D::1704876667878266718::1768174949::1768179877::1::::<><><>0<>0<>3da799b1a99088305d6e3e7b5af9b590<>res://.godot/imported/index.png-659c11691fe5279cf81f33eb936290a4.ctex::
 ::res://images/::1768086209
 Dungeon_brick_wall_grey.png.png::CompressedTexture2D::2264764905898675695::1768021311::1768021314::1::::<><><>0<>0<>82e9d2c579288a45fe65340599d3a651<>res://.godot/imported/Dungeon_brick_wall_grey.png.png-c427bc57414664a16d50d8621cc89f90.ctex::
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1767497577::1767497577::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::

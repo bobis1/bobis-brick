@@ -35,3 +35,11 @@ Today, I added more QOL like replacing the placeholder assets. I could not get m
 1.9.2026
 I now have a wave system that spawns enemies in based on the amount of platforms there are. I also added a wave counter.
 ![image](JournalAsset/1.9.2026.png)
+
+1.10.2026
+Today there was lots of progress. 
+
+First I added two new spells a burst spell[▶ Watch the video](JournalAsset/1.10.2026(Burst).mov) that pushes enemies away from you and a jump spell[▶ Watch the video](JournalAsset/1.10.2026(Jump).mov). In addition to this I also replaced the player sprite and made the player sprite able to look in different directions. For balance changes for my game, I changed the amount that the rock enemies can climb upon coming into contact into each other. Tomorrow I will try to add a main menu, a pause screen, and a death screen.
+[![Game Play](https://img.youtube.com/vi/tWaE2bdeTX0/0.jpg)](https://www.youtube.com/watch?v=tWaE2bdeTX0)
+
+
