@@ -43,3 +43,10 @@ First I added two new spells a burst spell[▶ Watch the video](JournalAsset/1.1
 [![Game Play](https://img.youtube.com/vi/tWaE2bdeTX0/0.jpg)](https://www.youtube.com/watch?v=tWaE2bdeTX0)
 
 
+# Part 2: The controller
+
+1.12.2026
+Today, I got the buttons on the schematic set up I think I got the controller symbol in so I can start to wire that. I still have no idea on how I will add something that changes mouse inputs. I have a feeling that this will be an up hill battle. 
+![image](JournalAsset/1.12.2026.png)
+
+
