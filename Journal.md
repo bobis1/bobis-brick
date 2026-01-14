@@ -49,4 +49,7 @@ First I added two new spells a burst spell[▶ Watch the video](JournalAsset/1.1
 Today, I got the buttons on the schematic set up I think I got the controller symbol in so I can start to wire that. I still have no idea on how I will add something that changes mouse inputs. I have a feeling that this will be an up hill battle. 
 ![image](JournalAsset/1.12.2026.png)
 
+1.13.2026
+Today I got the PCB design for the controller. I think that based on the tutorials online the joysticks should be set up correctly. Now I must make a case add add the firmware.
+![image](JournalAsset/1.13.2026.png)
 
