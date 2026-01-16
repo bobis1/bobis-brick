@@ -54,3 +54,6 @@ Today I got the PCB design for the controller. I think that based on the tutoria
 ![image](JournalAsset/1.13.2026.png)
 
 1.1.2026
+Today, I worked on getting the firmware done. I think that most of it is finished however I have a feeling that it will not work and I will have to re-do it at some point. I also found out that in the schematic one of the sw_pushes was connected to ground on both terminals so I also fixed that. Next I need to install board and analogio.
+![image](JournalAsset/1.15.2026(code).png)
+![image](JournalAsset/1.15.2026(Schem).png)
