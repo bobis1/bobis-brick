@@ -53,3 +53,4 @@ Today, I got the buttons on the schematic set up I think I got the controller sy
 Today I got the PCB design for the controller. I think that based on the tutorials online the joysticks should be set up correctly. Now I must make a case add add the firmware.
 ![image](JournalAsset/1.13.2026.png)
 
+1.1.2026
