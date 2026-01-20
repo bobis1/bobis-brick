@@ -59,3 +59,4 @@ Today, I worked on getting the firmware done. I think that most of it is finishe
 ![image](JournalAsset/1.15.2026(Schem).png)
 
 # Part 3: The Launcher 
+Today, I worked on getting javaFX set up as I intend on using that for app development. I had lots of struggle with this  :(.
