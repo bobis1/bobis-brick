@@ -94,4 +94,5 @@ SuperJump={
 
 [rendering]
 
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.10792037, 0.15950409, 0.20397821, 1)

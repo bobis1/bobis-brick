@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1768523316
+::res://::1769033952
 Base.tscn::PackedScene::950002961111184600::1767661440::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg
 crosshair.gd::GDScript::4219456595128837843::1767664555::0::1::::<>Marker2D<><>0<>0<><>::
 enemy_spawner.gd::GDScript::1773441104895174403::1768088337::0::1::::<>Node<><>0<>0<><>::
