@@ -59,5 +59,8 @@ Today, I worked on getting the firmware done. I think that most of it is finishe
 ![image](JournalAsset/1.15.2026(Schem).png)
 
 # Part 3: The Launcher 
+1.20.2026
 Today, I worked on getting javaFX set up as I intend on using that for app development. I had lots of struggle with this  :(.
 
+1.21.2026
+Today, I managed to get the app launching functionality working. However I have to hard code where the executable is. I intend on having the app be able to scan for executables on external drives so that on my console I can have something similar to a disk insertion.

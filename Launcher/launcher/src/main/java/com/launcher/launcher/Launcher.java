@@ -12,6 +12,10 @@ public class Launcher extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Launcher.class.getResource("launcher.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1200, 1080);
+        scene.getStylesheets().add(
+                Launcher.class.getResource("/CSS/main.css").toExternalForm()
+        );
+
         stage.setScene(scene);
         stage.show();
     }

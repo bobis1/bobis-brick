@@ -3,15 +3,22 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 
 <?import javafx.scene.control.Button?>
 <VBox alignment="TOP_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.launcher.launcher.LauncherController">
+      fx:controller="com.launcher.launcher.LauncherController" styleClass="root">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
     <Label fx:id="Launch"/>
-    <Button text="Launch!" onAction="#onLaunchButtonClick"/>
-</VBox>
+    <Button text="Launch!" onAction="#onLaunchButtonClick" styleClass="launch-button">
+        <graphic>
+            <ImageView fitWidth="220" fitHeight="70" preserveRatio="true" fx:id="IconImage">
 
+            </ImageView>
+        </graphic>
+    </Button>
+</VBox>
