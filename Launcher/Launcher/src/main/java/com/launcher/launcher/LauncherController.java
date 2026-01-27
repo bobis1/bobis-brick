@@ -1,6 +1,7 @@
 package com.launcher.launcher;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -9,8 +10,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import com.launcher.launcher.Game;
+import javafx.scene.layout.FlowPane;
+import javafx.stage.FileChooser;
 
-import static java.nio.file.Files.isExecutable;
 
 public class LauncherController {
 
@@ -44,22 +47,53 @@ public class LauncherController {
         new ProcessBuilder("open", "-a", "Tower").start();
     }
 
+
     @FXML
-    public static List<File> findExecutables(File folder) {
-        List<File> executables = new ArrayList<>();
+    private FlowPane gamePane;
 
-        File[] files = folder.listFiles();
-        if (files == null) return executables;
+    private final List<Game> Game = new ArrayList<>();
 
-        for (File f : files) {
-            if (isLinuxExecutable(f)) {
-                executables.add(f);
-            }
+    @FXML
+    void onAddGame() {
+        FileChooser chooser = new FileChooser();
+        chooser.setTitle("Select Linux Executable");
+
+        File file = chooser.showOpenDialog(null);
+        if (file == null) return;
+
+        if (!file.canExecute()) {
+            System.out.println("File is not executable!");
+            return;
         }
-        return executables;
+
+        Game game = new Game(file.getName(), file);
+        Game.add(game);
+
+        addGameButton(game);
     }
 
-    private static boolean isLinuxExecutable(File file) {
-        return file.isFile() && file.canExecute();
+    private void addGameButton(Game game) {
+        Button btn = new Button(game.getName());
+        btn.getStyleClass().add("game-button");
+
+        btn.setPrefWidth(220);
+        btn.setPrefHeight(60);
+
+        btn.setOnAction(e -> launchGame(game));
+
+        gamePane.getChildren().add(btn);
+    }
+
+    private void launchGame(Game game) {
+        new Thread(() -> {
+            try {
+                new ProcessBuilder(game.getExecutable().getAbsolutePath())
+                        .inheritIO()
+                        .start();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
     }
 }
+
