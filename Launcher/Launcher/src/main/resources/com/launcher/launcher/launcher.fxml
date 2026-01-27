@@ -14,10 +14,9 @@
     </padding>
 
     <Label fx:id="Launch"/>
-    <Button text="Launch!" onAction="#onLaunchButtonClick" styleClass="launch-button">
+    <Button text="Tower Game" onAction="#onLaunchButtonClick" styleClass="launch-button">
         <graphic>
             <ImageView fitWidth="220" fitHeight="70" preserveRatio="true" fx:id="IconImage">
-
             </ImageView>
         </graphic>
     </Button>

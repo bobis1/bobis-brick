@@ -5,7 +5,12 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static java.nio.file.Files.isExecutable;
 
 public class LauncherController {
 
@@ -37,5 +42,24 @@ public class LauncherController {
     @FXML
     protected void onLaunchButtonClick() throws IOException {
         new ProcessBuilder("open", "-a", "Tower").start();
+    }
+
+    @FXML
+    public static List<File> findExecutables(File folder) {
+        List<File> executables = new ArrayList<>();
+
+        File[] files = folder.listFiles();
+        if (files == null) return executables;
+
+        for (File f : files) {
+            if (isLinuxExecutable(f)) {
+                executables.add(f);
+            }
+        }
+        return executables;
+    }
+
+    private static boolean isLinuxExecutable(File file) {
+        return file.isFile() && file.canExecute();
     }
 }
