@@ -23,6 +23,7 @@ public class LauncherController {
     @FXML
     private ImageView IconImage;
 
+
     @FXML
     public void initialize() {
         System.out.println("Initialize called");
@@ -32,10 +33,8 @@ public class LauncherController {
             try {
                 Image image = new Image(getClass().getResourceAsStream("/images/icon.png"));
                 IconImage.setImage(image);
-                System.out.println("Image loaded successfully");
             } catch (Exception e) {
-                System.err.println("Could not load image: " + e.getMessage());
-                e.printStackTrace();
+                System.err.println(e);
             }
         } else {
             System.err.println("iconImageView is null - check fx:id in FXML");
@@ -44,25 +43,25 @@ public class LauncherController {
 
     @FXML
     protected void onLaunchButtonClick() throws IOException {
-        new ProcessBuilder("open", "-a", "Tower").start();
+        new ProcessBuilder("./Documents/Tower.sh").start();
     }
 
 
     @FXML
-    private FlowPane gamePane;
+    private FlowPane gameList;
 
     private final List<Game> Game = new ArrayList<>();
 
     @FXML
     void onAddGame() {
         FileChooser chooser = new FileChooser();
-        chooser.setTitle("Select Linux Executable");
+        chooser.setTitle("Select Game Executable");
 
         File file = chooser.showOpenDialog(null);
         if (file == null) return;
 
         if (!file.canExecute()) {
-            System.out.println("File is not executable!");
+            chooser.setTitle("File is not executable");
             return;
         }
 
@@ -81,7 +80,7 @@ public class LauncherController {
 
         btn.setOnAction(e -> launchGame(game));
 
-        gamePane.getChildren().add(btn);
+        gameList.getChildren().add(btn);
     }
 
     private void launchGame(Game game) {

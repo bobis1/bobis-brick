@@ -1,23 +1,24 @@
 plugins {
-    java
-    application
     id("org.javamodularity.moduleplugin") version "1.8.15"
     id("org.openjfx.javafxplugin") version "0.0.13"
-    id("org.beryx.jlink") version "2.25.0"
+    id("org.beryx.jlink") version "2.26.0"
+
 }
 
 group = "com.launcher"
-version = "1.0-SNAPSHOT"
+version = "1"
+
 
 repositories {
     mavenCentral()
 }
 
+
 val junitVersion = "5.12.1"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(23)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -31,7 +32,7 @@ application {
 }
 
 javafx {
-    version = "25"
+    version = "21"
     modules = listOf("javafx.controls", "javafx.fxml")
 }
 
@@ -51,3 +52,4 @@ jlink {
         name = "app"
     }
 }
+

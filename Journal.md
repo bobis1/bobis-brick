@@ -69,4 +69,8 @@ Today, I managed to get the app launching functionality working. However I have 
 Today I got the app to launch along side adding icon images to the button and theming the launcher app to a color scheme that I personally like. I unfortunately believe that this project will have to extend into week four because I do not think I can make enough progress to get all the features that I want in by Sunday. But for the next features I need to add something to automatically add executable files from external storage devices.
 ![image](JournalAsset/1.23.2026.png)
 
-### 1.24.2026
+### 1.27.2026
+OK, Today is a massive day! I got the app to be able to add entries to to be added into a flow pane as they are added by the selector. In addition to this I also implemented an ADD GAME button to the launcher so that it is easier to add games manually. Next, I will add functionality so that the app can save what games you added to the launcher. But I think that this can be added to more but I think that it is shipable.
+
+### 1.28.2026
+Right now I have some issues when building my app.
