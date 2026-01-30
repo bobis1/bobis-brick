@@ -51,5 +51,17 @@ jlink {
     launcher {
         name = "app"
     }
+    jpackage {
+        installerType = "rpm"
+
+        appVersion = "1.0"
+
+        icon = "/home/joseph/Documents/GitHub/bobis-brick/launcher/src/main/resources/images/icon.png"
+
+        installerOptions = listOf(
+            "--linux-shortcut",
+            "--linux-menu-group", "Games"
+        )
+    }
 }
 
