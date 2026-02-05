@@ -73,4 +73,10 @@ Today I got the app to launch along side adding icon images to the button and th
 OK, Today is a massive day! I got the app to be able to add entries to to be added into a flow pane as they are added by the selector. In addition to this I also implemented an ADD GAME button to the launcher so that it is easier to add games manually. Next, I will add functionality so that the app can save what games you added to the launcher. But I think that this can be added to more but I think that it is shipable.
 
 ### 1.28.2026
-Right now I have some issues when building my app.
+Right now I have some issues when building my app. I mostly had these issues with trying to build for linux. However it ended up working in the end.
+
+
+# Part 4: The Console
+
+### 2.4.2026
+(Start time 3:50 end time 4:07), Today I got a basic case for my controller. Now I will also add some brick texture to make it more thematically sound.
