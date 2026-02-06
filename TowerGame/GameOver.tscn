@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1jtftv38k177"]
+
+[ext_resource type="Script" uid="uid://x6eho081uhxb" path="res://wave_count.gd" id="1_40baj"]
+[ext_resource type="Script" uid="uid://cgl67cliyi6py" path="res://Restart.gd" id="1_eksk4"]
+[ext_resource type="Script" uid="uid://ru1n88783qrs" path="res://enemies_killed_count.gd" id="2_a1htc"]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 524.5
+offset_top = 311.0
+offset_right = 589.5
+offset_bottom = 342.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Restart"
+script = ExtResource("1_eksk4")
+
+[node name="Died" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 497.0
+offset_top = 243.0
+offset_right = 616.0
+offset_bottom = 266.0
+grow_horizontal = 2
+text = "You have fallen"
+
+[node name="WaveCount" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 521.5
+offset_top = 271.0
+offset_right = 590.5
+offset_bottom = 294.0
+grow_horizontal = 2
+text = "Wave: 0"
+script = ExtResource("1_40baj")
+
+[node name="EnemiesKilledCount" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 492.0
+offset_top = 302.0
+offset_right = 622.0
+offset_bottom = 325.0
+grow_horizontal = 2
+text = "Enemies Killed: 0"
+script = ExtResource("2_a1htc")
+
+[node name="Camera2D" type="Camera2D" parent="Control"]
+position = Vector2(573, 299)
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]

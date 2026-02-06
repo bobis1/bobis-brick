@@ -26,3 +26,4 @@ scale = Vector2(2.5, 2.5)
 texture = ExtResource("2_ynxbr")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

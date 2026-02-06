@@ -26,7 +26,7 @@ func _process(delta: float) -> void:
 		print("next wave starting")
 		Globals.enemiesKilledInWave = 0
 		WaveNum.text = str(Globals.waveNumber)
-		await wait(15.0)
+		await wait(12.0)
 		Audio.play()
 		enemyWaveAmount = baseEnemyWaveAmount * Globals.PlatformAmount
 		print("Wave About to start")

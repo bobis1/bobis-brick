@@ -70,6 +70,7 @@ func _physics_process(delta: float) -> void:
 			
 	if Input.is_action_just_pressed("Reload"):
 		if(!isReloading):
+			velocity = Vector2.ZERO
 			isReloading = true
 			await wait(2.0)
 			currentClip = maxClipSize
@@ -84,11 +85,9 @@ func _physics_process(delta: float) -> void:
 			isReloading = false
 	
 	if Globals.Health <= 0:
-		get_tree().change_scene_to_file("res://main.tscn")
+		get_tree().change_scene_to_file("res://GameOver.tscn")
 		log.global_position = Vector2(133, -1726)
-		Globals.EnemiesKilled = 0
-		Globals.PlatformAmount = 0
-		Globals.waveNumber = 1
+
 
 		
 	if Input.is_action_pressed("MOVE_LEFT"):

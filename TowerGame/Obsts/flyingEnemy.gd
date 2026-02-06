@@ -12,8 +12,6 @@ var knockbackDir
 var targetPose: Vector2
 var isGrounded: bool
 var bounceCount: int
-var isTouching: bool
-var isBodyGrounded: bool
 
 
 func _ready() -> void:
@@ -23,6 +21,7 @@ func _ready() -> void:
 	
 
 func _physics_process(delta: float) -> void:
+	
 	if not target:
 		return
 	targetPose = target.global_position
@@ -36,21 +35,9 @@ func _physics_process(delta: float) -> void:
 		Globals.enemiesKilledInWave += 1
 		print("EnemiesKilled: ", Globals.EnemiesKilled)
 		queue_free()
-	#if targetPose.y < position.y  && !is_in_group("Flying") && isGrounded:
-	#	if(jumpAmount > 0):
-	#		look_at(targetPose)
-	#		linear_velocity.y = -800 * bounceCount * Globals.PlatformAmount * 0.055
-	#		jumpAmount -= 1
-	#	else:
-	#		await wait(1.5)
-	#		jumpAmount = 1
-	if isTouching:
-		if isGrounded || isBodyGrounded:
-			look_at(targetPose)
-			linear_velocity.y = -800 * Globals.PlatformAmount
 func _on_body_entered(body: Node2D):
 	bounceCount += 1
-	add_to_group("Grounded")
+	isGrounded = true	
 	if(body.is_in_group("Projectile")):
 		health -= 10		
 		body.queue_free()
@@ -58,24 +45,20 @@ func _on_body_entered(body: Node2D):
 		health -= 10
 		knockbackDir = (global_position - body.global_position).normalized()
 		apply_impulse(knockbackDir * burst_knockback_force)
+		
 	if(body.is_in_group("Player")):
 		Globals.Health -= 10
 		if Globals.isLeft == Vector2.RIGHT:
 			linear_velocity.x = 1600
 		elif Globals.isLeft == Vector2.LEFT:
 			linear_velocity.x = -1600
-	if(body.is_in_group("Enemy") && !is_in_group("Flying")):
-		isTouching = true
-		if(body.is_in_group("Grounded")):
-			isBodyGrounded = true
-		else :
-			isBodyGrounded = false
-		
+	#if(body.is_in_group("Enemy") && !is_in_group("Flying")):
+	#	look_at(targetPose)
+	#	linear_velocity.y = -800 * Globals.PlatformAmount	
 	pass
 
 func  _on_body_exited(body: Node2D):
-	remove_from_group("Grounded")
-	isTouching = false
+	isGrounded = false
 
 func wait(duration):  
 	await get_tree().create_timer(duration, false, false, true).timeout

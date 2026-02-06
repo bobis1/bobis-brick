@@ -6,13 +6,13 @@
 [ext_resource type="Texture2D" uid="uid://7jcl2i70j0yd" path="res://images/Dungeon_brick_wall_grey.png.png" id="4_24qkb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yp0sw"]
-size = Vector2(1777, 121)
+size = Vector2(1777, 1176)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fmgqs"]
 size = Vector2(236.76009, 121)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eralg"]
-size = Vector2(1777, 121)
+size = Vector2(1777, 1391)
 
 [node name="StairBlock" type="Node2D"]
 
@@ -23,7 +23,7 @@ can_sleep = false
 freeze = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2"]
-position = Vector2(76.5, -136.5)
+position = Vector2(76.5, 390.99994)
 shape = SubResource("RectangleShape2D_yp0sw")
 
 [node name="Sprite2D" type="Sprite2D" parent="Floor2"]
@@ -137,7 +137,7 @@ can_sleep = false
 freeze = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3"]
-position = Vector2(76.5, -136.5)
+position = Vector2(76.5, -771.50006)
 shape = SubResource("RectangleShape2D_eralg")
 
 [node name="VectorBrickWallPixelBlocksBackgroundPattern3844014647" type="Sprite2D" parent="Floor3"]

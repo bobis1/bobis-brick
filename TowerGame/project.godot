@@ -33,6 +33,7 @@ PlayerMarker=""
 Flying=""
 EnemySpawn=""
 Burst=""
+Grounded=""
 
 [input]
 

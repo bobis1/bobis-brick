@@ -1,14 +1,15 @@
+Camera2D
+Control
+Label      - Matches the "text" keyword.
+Button
+CanvasLayer
 Sprite2D
 CollisionShape2D
 RigidBody2D
 AudioStreamPlayer2D
-Label      - Matches the "text" keyword.
 Node
 Timer
 TextureRect
 Area2D
 ProgressBar
 TextureProgressBar
-CanvasLayer
-Marker2D
-OpenXRBindingModifierEditor
