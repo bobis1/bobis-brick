@@ -14,8 +14,6 @@ var enemyWaveAmount: int
 func _ready() -> void:
 	Globals.PlatformAmount = 1
 	enemyWaveAmount = 10
-	Globals.waveNumber = 1
-	WaveNum.text = str(Globals.waveNumber)
 	spawn_wave()
 	pass # Replace with function body.
 
@@ -35,6 +33,7 @@ func _process(delta: float) -> void:
 	pass
 func spawn_wave():
 	Globals.waveNumber += 1
+	WaveNum.text = str(Globals.waveNumber)
 	for i in range(enemyWaveAmount):
 		await wait(0.5)
 		spawnPoints = get_tree().get_nodes_in_group("EnemySpawn")

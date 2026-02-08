@@ -71,6 +71,7 @@ Top = NodePath("../Base/Top")
 [node name="Base" type="Node" parent="."]
 
 [node name="Floor" type="RigidBody2D" parent="Base"]
+visible = false
 position = Vector2(202, 316)
 can_sleep = false
 freeze = true

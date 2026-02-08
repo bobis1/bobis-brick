@@ -1,8 +1,3 @@
-res://GameOver.tscn
-res://wave_count.gd
-res://player.gd
-res://enemies_killed_count.gd
-res://Restart.gd
 res://main.tscn
-res://platform_spawner.gd
+res://Restart.gd
 res://enemy_spawner.gd
