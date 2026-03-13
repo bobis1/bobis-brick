@@ -1,5 +1,5 @@
 72322a848ab928aa5c89f0cb78209805
-::res://::1773014079
+::res://::1773368539
 Base.tscn::PackedScene::950002961111184600::1767661440::0::1::::<><><>0<>0<><>::uid://ckcndmxo1ttrk::::res://icon.svg
 crosshair.gd::GDScript::4219456595128837843::1767664555::0::1::::<>Marker2D<><>0<>0<><>::
 enemies_killed_count.gd::GDScript::1236101539808690500::1770430709::0::1::::<>Label<><>0<>0<><>::
@@ -10,7 +10,7 @@ Globals.gd::GDScript::509349098148029968::1768078451::0::1::::<>Node<><>0<>0<><>
 health_bar.gd::GDScript::4113729255951118033::1767756894::0::1::::<>ProgressBar<><>0<>0<><>::
 icon.svg::CompressedTexture2D::5479653904044637520::1767497577::1767497577::1::::<><><>0<>0<>ae546241fe8fac820f1589760b35514a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 isOnFloor.gd::GDScript::6325286757120976387::1767497577::0::1::::<>Area2D<><>0<>0<><>::
-main.tscn::PackedScene::6616807657897134777::1770576856::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://c3hc0miqwg5vt::::res://images/ZiiLjZ.png<>uid://byuyrw6db0arx::::res://health_bar.gd<>uid://bcsymje6nuo77::::res://Obsts/Enemy.tscn<>uid://bii1oqm6gqm42::::res://images/pixil-frame-0 (1).png<>uid://0jck0f6mx15h::::res://enemy_spawner.gd<>uid://c4u80btoh01vh::::res://platform_spawner.gd<>uid://4d6l1tlu6hua::::res://Obsts/FlyingEnemy.tscn<>uid://cx5aq2ichi2uw::::res://Obsts/StairBlock.tscn<>uid://rpvjuthj7afe::::res://single-church-bell-2-352062.mp3<>uid://gnymeveqdfgp::::res://Obsts/StairBlockWHeal.tscn<>uid://moaqvw86o4jr::::res://Obsts/LavaStairs.tscn<>uid://cbc1546q3652l::::res://images/README.png<>uid://i1bqrjtaumq2::::res://images/pixil-frame-0 (3).png<>uid://cpwmjxmqteron::::res://images/Jump.png
+main.tscn::PackedScene::6616807657897134777::1773014173::0::1::::<><><>0<>0<><>::uid://bywix6v5uwf6q::::res://player.gd<>uid://c3hc0miqwg5vt::::res://images/ZiiLjZ.png<>uid://byuyrw6db0arx::::res://health_bar.gd<>uid://bcsymje6nuo77::::res://Obsts/Enemy.tscn<>uid://bii1oqm6gqm42::::res://images/pixil-frame-0 (1).png<>uid://0jck0f6mx15h::::res://enemy_spawner.gd<>uid://c4u80btoh01vh::::res://platform_spawner.gd<>uid://4d6l1tlu6hua::::res://Obsts/FlyingEnemy.tscn<>uid://cx5aq2ichi2uw::::res://Obsts/StairBlock.tscn<>uid://rpvjuthj7afe::::res://single-church-bell-2-352062.mp3<>uid://gnymeveqdfgp::::res://Obsts/StairBlockWHeal.tscn<>uid://moaqvw86o4jr::::res://Obsts/LavaStairs.tscn<>uid://cbc1546q3652l::::res://images/README.png<>uid://i1bqrjtaumq2::::res://images/pixil-frame-0 (3).png<>uid://cpwmjxmqteron::::res://images/Jump.png
 platform_spawner.gd::GDScript::6851653776100350193::1770430709::0::1::::<>Node<><>0<>0<><>::
 player.gd::GDScript::4116897712852545842::1770430709::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Restart.gd::GDScript::5218622079125226130::1770576679::0::1::::<>Button<><>0<>0<><>::
