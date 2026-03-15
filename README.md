@@ -17,7 +17,7 @@ This is the game that I created for the console.
 ### About the game
 In this game you defeat waves of enemies such as flying fireballs and rolling rocks as the tower keeps growing towards the sky.
 
-![image](JournalAsset/game.png)
+![image](JournalAsset/Game.png)
 
 
 
